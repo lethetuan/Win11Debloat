@@ -1,0 +1,38 @@
+{
+  "PrivacySuggestedContent": {
+    "Label": "Quyền riêng tư & Nội dung gợi ý"
+  },
+  "System": {
+    "Label": "Hệ thống"
+  },
+  "StartMenuSearch": {
+    "Label": "Menu Start & Tìm kiếm"
+  },
+  "AI": {
+    "Label": "Tính năng AI"
+  },
+  "WindowsUpdate": {
+    "Label": "Windows Update"
+  },
+  "Taskbar": {
+    "Label": "Thanh tác vụ (Taskbar)"
+  },
+  "Appearance": {
+    "Label": "Giao diện & Hiển thị"
+  },
+  "FileExplorer": {
+    "Label": "Trình quản lý tệp (File Explorer)"
+  },
+  "Gaming": {
+    "Label": "Trò chơi (Gaming)"
+  },
+  "MultiTasking": {
+    "Label": "Đa nhiệm"
+  },
+  "OptionalWindowsFeatures": {
+    "Label": "Tính năng Windows tùy chọn"
+  },
+  "Other": {
+    "Label": "Khác"
+  }
+}

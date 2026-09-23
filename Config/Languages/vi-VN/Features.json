@@ -1,0 +1,744 @@
+{
+  "Features": {
+    "RemoveApps": {
+      "Label": "Gỡ bỏ các ứng dụng được chỉ định bằng tham số 'Apps'",
+      "ApplyText": "Đang gỡ bỏ các ứng dụng đã chọn"
+    },
+    "Apps": {
+      "Label": "Danh sách ứng dụng cần gỡ bỏ, phân tách bằng dấu phẩy. Sử dụng 'Default' (hoặc bỏ trống) để dùng danh sách mặc định",
+      "ApplyText": "Đang gỡ bỏ các ứng dụng đã chọn"
+    },
+    "RemoveGamingApps": {
+      "Label": "Gỡ bỏ ứng dụng Xbox và Xbox Game Bar",
+      "ApplyText": "Đang gỡ bỏ các ứng dụng liên quan đến trò chơi"
+    },
+    "RemoveHPApps": {
+      "Label": "Gỡ bỏ các ứng dụng OEM của HP",
+      "ApplyText": "Đang gỡ bỏ các ứng dụng HP"
+    },
+    "CreateRestorePoint": {
+      "Label": "Tạo điểm khôi phục hệ thống (System Restore Point)",
+      "ApplyText": "Đang tạo điểm khôi phục hệ thống"
+    },
+    "DisableTelemetry": {
+      "Label": "Tắt thu thập dữ liệu từ xa (Telemetry), theo dõi & quảng cáo nhắm mục tiêu",
+      "ToolTip": "Cài đặt này sẽ tắt tính năng gửi dữ liệu từ xa, thu thập dữ liệu chẩn đoán, lịch sử hoạt động, theo dõi khởi chạy ứng dụng và quảng cáo theo dõi người dùng. Giới hạn dữ liệu gửi về Microsoft. Nếu bạn tham gia Windows Insider, việc cập nhật có thể bị tạm dừng cho đến khi bật lại tính năng chẩn đoán tùy chọn.",
+      "ApplyText": "Đang tắt thu thập dữ liệu từ xa và dữ liệu chẩn đoán",
+      "UndoLabel": "Bật thu thập dữ liệu từ xa, theo dõi & quảng cáo nhắm mục tiêu",
+      "ApplyUndoText": "Đang bật thu thập dữ liệu từ xa và dữ liệu chẩn đoán"
+    },
+    "DisableSuggestions": {
+      "Label": "Tắt mẹo vặt, gợi ý & nội dung quảng cáo xuyên suốt Windows",
+      "ToolTip": "Cài đặt này loại bỏ nhiều phiền toái trên Windows bao gồm thông báo làm phiền, nhắc nhở và quảng cáo đồng bộ đám mây. Đồng thời ngăn hệ thống tự động cài đặt ứng dụng được gợi ý.",
+      "ApplyText": "Đang tắt mẹo vặt, gợi ý và quảng cáo xuyên suốt Windows",
+      "UndoLabel": "Bật mẹo vặt, gợi ý & nội dung quảng cáo xuyên suốt Windows",
+      "ApplyUndoText": "Đang bật mẹo vặt, gợi ý và quảng cáo xuyên suốt Windows"
+    },
+    "DisableNotifications": {
+      "Label": "Tắt toàn bộ thông báo Windows (từ ứng dụng và người gửi khác)",
+      "ToolTip": "Tắt thông báo gốc của Windows từ ứng dụng và người gửi, bao gồm thông báo từ các ứng dụng như Discord, WhatsApp, Teams và Slack.",
+      "ApplyText": "Đang tắt thông báo và nhắc nhở của Windows",
+      "UndoLabel": "Bật thông báo và nhắc nhở của Windows",
+      "ApplyUndoText": "Đang bật thông báo và nhắc nhở của Windows"
+    },
+    "DisableLocationServices": {
+      "Label": "Tắt dịch vụ định vị Windows & quyền truy cập vị trí của ứng dụng",
+      "ToolTip": "Tắt Dịch vụ vị trí của Windows và từ chối ứng dụng truy cập vị trí địa lý của bạn. Tính năng này sử dụng Group Policy, có thể khóa một số mục cài đặt liên quan.",
+      "ApplyText": "Đang tắt dịch vụ định vị Windows và quyền truy cập vị trí của ứng dụng",
+      "UndoLabel": "Bật dịch vụ định vị Windows & quyền truy cập vị trí của ứng dụng",
+      "ApplyUndoText": "Đang bật dịch vụ định vị Windows và quyền truy cập vị trí của ứng dụng"
+    },
+    "DisableFindMyDevice": {
+      "Label": "Tắt tính năng theo dõi vị trí 'Tìm thiết bị của tôi' (Find My Device)",
+      "ToolTip": "Tắt tính năng 'Tìm thiết bị của tôi', tính năng này thường định kỳ gửi vị trí thiết bị về Microsoft. Tính năng này áp dụng chính sách Policy để khóa cài đặt.",
+      "ApplyText": "Đang tắt theo dõi vị trí Tìm thiết bị của tôi",
+      "UndoLabel": "Bật theo dõi vị trí Tìm thiết bị của tôi",
+      "ApplyUndoText": "Đang bật theo dõi vị trí Tìm thiết bị của tôi"
+    },
+    "DisableLockscreenTips": {
+      "Label": "Tắt mẹo, gợi ý và thông tin thú vị trên màn hình khóa",
+      "ToolTip": "Tắt tính năng gợi ý của Windows Spotlight trên màn hình khóa và loại bỏ các mẹo vặt, câu đố hiển thị trên màn hình khóa.",
+      "ApplyText": "Đang tắt mẹo và gợi ý trên màn hình khóa",
+      "UndoLabel": "Bật mẹo và gợi ý trên màn hình khóa",
+      "ApplyUndoText": "Đang bật mẹo và gợi ý trên màn hình khóa"
+    },
+    "EnableDesktopSpotlight": {
+      "Label": "Bật hình nền Windows Spotlight trên màn hình desktop và biểu tượng lối tắt",
+      "ToolTip": "Khôi phục hình nền thay đổi tự động Windows Spotlight trên màn hình chính và biểu tượng 'Tìm hiểu thêm về hình ảnh này'.",
+      "ApplyText": "Đang khôi phục hình nền Windows Spotlight và lối tắt màn hình chính"
+    },
+    "DisableDesktopSpotlight": {
+      "Label": "Tắt tính năng hình nền Windows Spotlight trên màn hình desktop",
+      "ToolTip": "Tắt tính năng xoay vòng hình nền desktop của Windows Spotlight. Tính năng này sử dụng Group Policy để khóa cài đặt.",
+      "ApplyText": "Đang tắt hình nền Windows Spotlight trên desktop",
+      "UndoLabel": "Bật tính năng hình nền Windows Spotlight trên desktop",
+      "ApplyUndoText": "Đang khôi phục hình nền Windows Spotlight và lối tắt màn hình chính"
+    },
+    "HideDesktopSpotlightIcon": {
+      "Label": "Ẩn biểu tượng lối tắt 'Tìm hiểu thêm về bức ảnh này' trên desktop",
+      "ToolTip": "Ẩn biểu tượng lối tắt trên màn hình chính nhưng vẫn giữ tính năng tự động đổi hình nền Windows Spotlight hoạt động.",
+      "ApplyText": "Đang ẩn biểu tượng lối tắt Windows Spotlight trên màn hình chính",
+      "UndoLabel": "Hiện biểu tượng lối tắt 'Tìm hiểu thêm về bức ảnh này' trên desktop",
+      "ApplyUndoText": "Đang hiển thị biểu tượng lối tắt Windows Spotlight trên màn hình chính"
+    },
+    "DisableEdgeAds": {
+      "Label": "Tắt quảng cáo, gợi ý và bảng tin tức MSN trong trình duyệt Edge",
+      "ToolTip": "Tắt các thành phần phiền phức trên Microsoft Edge như quảng cáo, gợi ý tìm kiếm và nguồn cấp tin tức MSN. Tùy chọn này sử dụng chính sách Policy.",
+      "ApplyText": "Đang tắt quảng cáo, gợi ý và bảng tin MSN trong Microsoft Edge",
+      "UndoLabel": "Bật quảng cáo, gợi ý và bảng tin trong Edge",
+      "ApplyUndoText": "Đang bật quảng cáo, gợi ý và bảng tin MSN trong Microsoft Edge"
+    },
+    "DisableCopilot": {
+      "Label": "Vô hiệu hóa trợ lý Microsoft Copilot",
+      "ToolTip": "Vô hiệu hóa và gỡ bỏ Microsoft Copilot - trợ lý AI tích hợp sẵn của Windows.",
+      "ApplyText": "Đang vô hiệu hóa Microsoft Copilot",
+      "UndoLabel": "Bật lại Microsoft Copilot",
+      "ApplyUndoText": "Đang bật lại Microsoft Copilot"
+    },
+    "DisableRecall": {
+      "Label": "Vô hiệu hóa tính năng Windows Recall",
+      "ToolTip": "Vô hiệu hóa Windows Recall - tính năng sử dụng AI chụp ảnh màn hình định kỳ để lưu trữ lịch sử hoạt động và tệp sử dụng gần đây. Sử dụng Group Policy.",
+      "ApplyText": "Đang vô hiệu hóa Windows Recall",
+      "UndoLabel": "Bật lại Windows Recall",
+      "ApplyUndoText": "Đang bật lại Windows Recall"
+    },
+    "DisableClickToDo": {
+      "Label": "Vô hiệu hóa Click To Do (phân tích văn bản & hình ảnh bằng AI)",
+      "ToolTip": "Vô hiệu hóa tính năng Click To Do tích hợp AI phân tích văn bản và hình ảnh thông minh trên Windows 11. Sử dụng Group Policy.",
+      "ApplyText": "Đang vô hiệu hóa Click to Do",
+      "UndoLabel": "Bật lại Click To Do (phân tích văn bản & hình ảnh bằng AI)",
+      "ApplyUndoText": "Đang bật lại Click to Do"
+    },
+    "DisableAISvcAutoStart": {
+      "Label": "Ngăn dịch vụ AI khởi động cùng Windows",
+      "ToolTip": "Chuyển dịch vụ nền WSAIFabricSvc sang chế độ khởi động thủ công (Manual), ngăn dịch vụ AI tự động chạy nền khi mở máy.",
+      "ApplyText": "Đang ngăn dịch vụ AI tự động khởi động cùng hệ thống",
+      "UndoLabel": "Cho phép dịch vụ AI tự động khởi động cùng hệ thống",
+      "ApplyUndoText": "Đang cho phép dịch vụ AI tự động khởi động cùng hệ thống"
+    },
+    "DisableDVR": {
+      "Label": "Tắt tính năng quay màn hình / quay video game của Xbox DVR",
+      "ToolTip": "Tắt tính năng ghi âm và quay video màn hình khi chơi game tích hợp trong Xbox Game Bar. Sử dụng Group Policy.",
+      "ApplyText": "Đang tắt tính năng quay video game/màn hình của Xbox",
+      "UndoLabel": "Bật tính năng quay video game/màn hình của Xbox",
+      "ApplyUndoText": "Đang bật tính năng quay video game/màn hình của Xbox"
+    },
+    "DisableGameBarIntegration": {
+      "Label": "Tắt tích hợp Game Bar khi khởi chạy game hoặc kết nối tay cầm",
+      "ToolTip": "Tắt sự tích hợp của Game Bar với các trò chơi và tay cầm chơi game. Ngăn chặn các thông báo bật lên phiền phức 'ms-gamebar' khi mở game.",
+      "ApplyText": "Đang tắt tích hợp Game Bar",
+      "UndoLabel": "Bật tích hợp Game Bar",
+      "ApplyUndoText": "Đang bật tích hợp Game Bar"
+    },
+    "ClearStart": {
+      "Label": "Xóa toàn bộ ứng dụng đã ghim trên Start Menu (chỉ áp dụng người dùng này)",
+      "ApplyText": "Đang xóa toàn bộ ứng dụng đã ghim trên Start Menu"
+    },
+    "ClearStartAllUsers": {
+      "Label": "Xóa toàn bộ ứng dụng đã ghim trên Start Menu cho tất cả người dùng hiện tại và mới",
+      "ApplyText": "Đang xóa toàn bộ ứng dụng đã ghim trên Start Menu cho tất cả người dùng"
+    },
+    "ReplaceStart": {
+      "Label": "Thay thế bố cục Start Menu của người dùng này bằng tệp mẫu được cung cấp",
+      "ApplyText": "Đang thay thế bố cục Start Menu"
+    },
+    "ReplaceStartAllUsers": {
+      "Label": "Thay thế bố cục Start Menu cho tất cả người dùng hiện tại và mới bằng tệp mẫu được cung cấp",
+      "ApplyText": "Đang thay thế bố cục Start Menu cho tất cả người dùng"
+    },
+    "DisableStartRecommended": {
+      "Label": "Ẩn phần 'Được đề xuất' (Recommended) trên Start Menu",
+      "ToolTip": "Ẩn khu vực gợi ý trong Start Menu (nơi hiển thị các tệp vừa mở, ứng dụng mới cài đặt và các đề xuất ứng dụng). Sử dụng Group Policy.",
+      "ApplyText": "Đang ẩn phần Được đề xuất trên Start Menu",
+      "UndoLabel": "Hiện phần 'Được đề xuất' (Recommended) trên Start Menu",
+      "ApplyUndoText": "Đang hiện phần Được đề xuất trên Start Menu"
+    },
+    "DisableStartAllApps": {
+      "Label": "Ẩn danh mục 'Tất cả ứng dụng' (All Apps) trên Start Menu",
+      "ToolTip": "Ẩn danh sách 'Tất cả ứng dụng' trong Start Menu. CẢNH BÁO: Việc ẩn mục này có thể khiến bạn khó tìm kiếm ứng dụng đã cài đặt trên máy. Sử dụng Group Policy.",
+      "ApplyText": "Đang ẩn mục 'Tất cả ứng dụng' trên Start Menu",
+      "UndoLabel": "Hiện mục 'Tất cả ứng dụng' (All Apps) trên Start Menu",
+      "ApplyUndoText": "Đang hiện mục 'Tất cả ứng dụng' trên Start Menu"
+    },
+    "DisableStartPhoneLink": {
+      "Label": "Tắt tích hợp Phone Link (Liên kết điện thoại) trong Start Menu",
+      "ToolTip": "Loại bỏ bảng hiển thị trạng thái kết nối điện thoại Phone Link nằm cạnh Start Menu khi bạn kết nối điện thoại với máy tính.",
+      "ApplyText": "Đang tắt tích hợp thiết bị di động Phone Link trên Start Menu",
+      "UndoLabel": "Bật tích hợp Phone Link trong Start Menu",
+      "ApplyUndoText": "Đang bật tích hợp thiết bị di động Phone Link trên Start Menu"
+    },
+    "DisableBing": {
+      "Label": "Tắt tìm kiếm web Bing & tích hợp Copilot trong thanh tìm kiếm Windows",
+      "ToolTip": "Tắt kết quả tìm kiếm trực tuyến qua Bing và trợ lý Copilot khi gõ tìm kiếm trên thanh tác vụ Windows. Giúp tìm kiếm cục bộ nhanh và riêng tư hơn.",
+      "ApplyText": "Đang tắt tìm kiếm web Bing & Copilot trong tìm kiếm Windows",
+      "UndoLabel": "Bật tìm kiếm web Bing & tích hợp Copilot trong thanh tìm kiếm",
+      "ApplyUndoText": "Đang bật tìm kiếm web Bing & Copilot trong tìm kiếm Windows"
+    },
+    "DisableStoreSearchSuggestions": {
+      "Label": "Tắt gợi ý ứng dụng Microsoft Store trong kết quả tìm kiếm",
+      "ToolTip": "Ngăn không cho Windows hiển thị đề xuất tải ứng dụng từ Microsoft Store khi bạn tìm kiếm trên máy tính.",
+      "ApplyText": "Đang tắt gợi ý ứng dụng Microsoft Store trong tìm kiếm",
+      "UndoLabel": "Bật gợi ý ứng dụng Microsoft Store trong kết quả tìm kiếm",
+      "ApplyUndoText": "Đang bật gợi ý ứng dụng Microsoft Store trong tìm kiếm"
+    },
+    "DisableSettings365Ads": {
+      "Label": "Ẩn quảng cáo Microsoft 365 Copilot trên trang chủ Cài đặt (Settings)",
+      "ToolTip": "Tắt các biểu ngữ quảng cáo gói đăng ký Microsoft 365 và Copilot xuất hiện trên trang chủ của ứng dụng Settings.",
+      "ApplyText": "Đang tắt quảng cáo Microsoft 365 Copilot trên trang chủ Settings",
+      "UndoLabel": "Hiện quảng cáo Microsoft 365 Copilot trên trang chủ Settings",
+      "ApplyUndoText": "Đang hiện quảng cáo Microsoft 365 Copilot trên trang chủ Settings"
+    },
+    "DisableSettingsHome": {
+      "Label": "Ẩn hoàn toàn trang 'Trang chủ' (Home) trong ứng dụng Cài đặt (Settings)",
+      "ToolTip": "Xóa bỏ trang 'Home' khỏi ứng dụng Settings, chuyển thẳng vào các mục cấu hình hệ thống.",
+      "ApplyText": "Đang ẩn trang Home trong ứng dụng Settings",
+      "UndoLabel": "Hiện trang 'Trang chủ' (Home) trong ứng dụng Settings",
+      "ApplyUndoText": "Đang hiện trang Home trong ứng dụng Settings"
+    },
+    "DisableEdgeAI": {
+      "Label": "Tắt các tính năng AI trong Microsoft Edge",
+      "ToolTip": "Tắt các tính năng AI trong Microsoft Edge, chẳng hạn như thanh bên Copilot AI và các công cụ tổng hợp nội dung. Sử dụng Group Policy.",
+      "ApplyText": "Đang tắt các tính năng AI trong Microsoft Edge",
+      "UndoLabel": "Bật lại tính năng AI trong Microsoft Edge",
+      "ApplyUndoText": "Đang bật lại các tính năng AI trong Microsoft Edge"
+    },
+    "DisablePaintAI": {
+      "Label": "Tắt các tính năng AI trong ứng dụng vẽ Paint",
+      "ToolTip": "Tắt các công cụ AI trong Paint như tính năng Cocreator tạo và chỉnh sửa ảnh bằng AI. Sử dụng Group Policy.",
+      "ApplyText": "Đang tắt các tính năng AI trong Paint",
+      "UndoLabel": "Bật lại tính năng AI trong Paint",
+      "ApplyUndoText": "Đang bật lại các tính năng AI trong Paint"
+    },
+    "DisableNotepadAI": {
+      "Label": "Tắt các tính năng AI trong ứng dụng Notepad",
+      "ToolTip": "Tắt các công cụ hỗ trợ viết và tóm tắt văn bản bằng AI (Rewrite) trong Notepad. Sử dụng Group Policy.",
+      "ApplyText": "Đang tắt các tính năng AI trong Notepad",
+      "UndoLabel": "Bật lại tính năng AI trong Notepad",
+      "ApplyUndoText": "Đang bật lại các tính năng AI trong Notepad"
+    },
+    "EnableDarkMode": {
+      "Label": "Bật giao diện nền tối (Dark mode) cho hệ thống và ứng dụng",
+      "ToolTip": "Thiết lập màu giao diện của Windows và các ứng dụng sang chế độ tối để dịu mắt hơn.",
+      "ApplyText": "Đang bật giao diện tối cho hệ thống và ứng dụng",
+      "UndoLabel": "Tắt giao diện nền tối cho hệ thống và ứng dụng",
+      "ApplyUndoText": "Đang tắt giao diện tối cho hệ thống và ứng dụng"
+    },
+    "DisableDragTray": {
+      "Label": "Tắt thanh 'Drag Tray' khi kéo thả chia sẻ & di chuyển tệp",
+      "ToolTip": "Drag Tray là thanh khay xuất hiện ở cạnh trên màn hình khi bạn kéo tệp trong Windows 11 để chia sẻ tệp.",
+      "ApplyText": "Đang tắt Drag Tray",
+      "UndoLabel": "Bật thanh 'Drag Tray' khi kéo thả tệp",
+      "ApplyUndoText": "Đang bật Drag Tray"
+    },
+    "RevertContextMenu": {
+      "Label": "Khôi phục menu chuột phải cổ điển của Windows 10",
+      "ToolTip": "Khôi phục menu ngữ cảnh chuột phải đầy đủ kiểu Windows 10, thay vì phải nhấp vào 'Show more options' (Hiện thêm tùy chọn) trên Windows 11.",
+      "ApplyText": "Đang khôi phục menu ngữ cảnh chuột phải cổ điển kiểu Windows 10",
+      "UndoLabel": "Sử dụng menu ngữ cảnh chuột phải của Windows 11",
+      "ApplyUndoText": "Đang khôi phục menu ngữ cảnh của Windows 11"
+    },
+    "DisableMouseAcceleration": {
+      "Label": "Tắt gia tốc chuột (Enhance Pointer Precision)",
+      "ToolTip": "Tắt tính năng tăng tốc độ con trỏ chuột được bật mặc định trên Windows. Giúp con trỏ chuột di chuyển đồng nhất, chuẩn xác (rất hữu ích khi chơi game và thiết kế đồ họa).",
+      "ApplyText": "Đang tắt gia tốc chuột (Enhance Pointer Precision)",
+      "UndoLabel": "Bật gia tốc chuột (Enhance Pointer Precision)",
+      "ApplyUndoText": "Đang bật gia tốc chuột (Enhance Pointer Precision)"
+    },
+    "DisableStickyKeys": {
+      "Label": "Tắt phím tắt kích hoạt Sticky Keys (nhấn phím Shift 5 lần liên tiếp)",
+      "ToolTip": "Ngăn chặn hộp thoại thông báo phiền toái Sticky Keys bật lên khi bạn vô tình bấm phím Shift 5 lần liên tiếp.",
+      "ApplyText": "Đang tắt phím tắt kích hoạt Sticky Keys",
+      "UndoLabel": "Bật phím tắt kích hoạt Sticky Keys (nhấn Shift 5 lần)",
+      "ApplyUndoText": "Đang bật phím tắt kích hoạt Sticky Keys"
+    },
+    "DisableWindowSnapping": {
+      "Label": "Tắt tính năng gắn cửa sổ vào cạnh màn hình (Window Snapping)",
+      "ToolTip": "Tắt khả năng tự động hút/gắn cửa sổ vào các góc hoặc cạnh màn hình khi di chuyển.",
+      "ApplyText": "Đang tắt tính năng gắn cửa sổ (Window Snapping)",
+      "UndoLabel": "Bật tính năng gắn cửa sổ (Window Snapping)",
+      "ApplyUndoText": "Đang bật tính năng gắn cửa sổ (Window Snapping)"
+    },
+    "DisableSnapAssist": {
+      "Label": "Tắt hiển thị gợi ý cửa sổ khi căn chỉnh (Snap Assist)",
+      "ToolTip": "Tắt bảng hiển thị danh sách các cửa sổ còn lại khi bạn vừa gắn một cửa sổ vào một nửa màn hình.",
+      "ApplyText": "Đang tắt gợi ý Snap Assist",
+      "UndoLabel": "Bật hiển thị gợi ý cửa sổ khi căn chỉnh (Snap Assist)",
+      "ApplyUndoText": "Đang bật gợi ý Snap Assist"
+    },
+    "DisableSnapLayouts": {
+      "Label": "Ẩn bảng bố cục Snap Layout trên nút phóng to & cạnh trên màn hình",
+      "ToolTip": "Tắt menu gợi ý bố cục sắp xếp cửa sổ xuất hiện khi bạn rê chuột vào nút Maximize (Phóng to) hoặc kéo cửa sổ lên cạnh trên cùng của màn hình.",
+      "ApplyText": "Đang ẩn Snap Layouts trên nút phóng to và khi kéo cửa sổ lên cạnh trên",
+      "UndoLabel": "Hiện bảng bố cục Snap Layout trên nút phóng to & cạnh trên màn hình",
+      "ApplyUndoText": "Đang hiện Snap Layouts trên nút phóng to và khi kéo cửa sổ lên cạnh trên"
+    },
+    "HideTabsInAltTab": {
+      "Label": "Ẩn các tab trình duyệt khi căn chỉnh hoặc nhấn Alt+Tab",
+      "ApplyText": "Đang tắt hiển thị tab trình duyệt khi gắn cửa sổ hoặc nhấn Alt+Tab"
+    },
+    "Show3TabsInAltTab": {
+      "Label": "Hiện 3 tab trình duyệt gần nhất khi căn chỉnh hoặc nhấn Alt+Tab",
+      "ApplyText": "Đang bật hiển thị 3 tab gần nhất khi gắn cửa sổ hoặc nhấn Alt+Tab"
+    },
+    "Show5TabsInAltTab": {
+      "Label": "Hiện 5 tab trình duyệt gần nhất khi căn chỉnh hoặc nhấn Alt+Tab",
+      "ApplyText": "Đang bật hiển thị 5 tab gần nhất khi gắn cửa sổ hoặc nhấn Alt+Tab"
+    },
+    "Show20TabsInAltTab": {
+      "Label": "Hiện 20 tab trình duyệt gần nhất khi căn chỉnh hoặc nhấn Alt+Tab",
+      "ApplyText": "Đang bật hiển thị 20 tab gần nhất khi gắn cửa sổ hoặc nhấn Alt+Tab"
+    },
+    "TaskbarAlignLeft": {
+      "Label": "Căn chỉnh các biểu tượng Taskbar sang bên trái",
+      "ToolTip": "Mặc định trên Windows 11 các biểu tượng trên thanh tác vụ nằm ở giữa. Bật tùy chọn này sẽ đưa các biểu tượng về bên trái giống như các phiên bản Windows trước đây.",
+      "ApplyText": "Đang căn lề các nút trên thanh tác vụ sang bên trái",
+      "UndoLabel": "Căn chỉnh các biểu tượng Taskbar vào giữa",
+      "ApplyUndoText": "Đang căn lề các nút trên thanh tác vụ vào giữa"
+    },
+    "HideSearchTb": {
+      "Label": "Ẩn biểu tượng tìm kiếm khỏi thanh tác vụ",
+      "ApplyText": "Đang ẩn biểu tượng tìm kiếm khỏi thanh tác vụ",
+      "UndoLabel": "Hiện hộp tìm kiếm trên thanh tác vụ",
+      "ApplyUndoText": "Đang chuyển tìm kiếm trên thanh tác vụ thành hộp tìm kiếm"
+    },
+    "ShowSearchIconTb": {
+      "Label": "Chỉ hiện biểu tượng kính lúp tìm kiếm trên thanh tác vụ",
+      "ApplyText": "Đang chuyển tìm kiếm trên thanh tác vụ thành biểu tượng",
+      "UndoLabel": "Hiện hộp tìm kiếm trên thanh tác vụ",
+      "ApplyUndoText": "Đang chuyển tìm kiếm trên thanh tác vụ thành hộp tìm kiếm"
+    },
+    "ShowSearchLabelTb": {
+      "Label": "Hiện biểu tượng tìm kiếm kèm nhãn chữ trên thanh tác vụ",
+      "ApplyText": "Đang chuyển tìm kiếm trên thanh tác vụ thành biểu tượng kèm nhãn",
+      "UndoLabel": "Hiện hộp tìm kiếm trên thanh tác vụ",
+      "ApplyUndoText": "Đang chuyển tìm kiếm trên thanh tác vụ thành hộp tìm kiếm"
+    },
+    "ShowSearchBoxTb": {
+      "Label": "Hiện hộp tìm kiếm đầy đủ trên thanh tác vụ",
+      "ApplyText": "Đang chuyển tìm kiếm trên thanh tác vụ thành hộp tìm kiếm"
+    },
+    "HideTaskview": {
+      "Label": "Ẩn nút 'Task View' (Xem tác vụ) khỏi thanh tác vụ",
+      "ToolTip": "Ẩn nút Task View trên thanh tác vụ (nút dùng để xem tất cả cửa sổ đang mở và quản lý các màn hình ảo).",
+      "ApplyText": "Đang ẩn nút Task View khỏi thanh tác vụ",
+      "UndoLabel": "Hiện nút 'Task View' trên thanh tác vụ",
+      "ApplyUndoText": "Đang hiện nút Task View trên thanh tác vụ"
+    },
+    "DisableWidgets": {
+      "Label": "Tắt tiện ích Widgets trên thanh tác vụ & màn hình khóa",
+      "ToolTip": "Tắt hoàn toàn tính năng Widgets trong Windows, bao gồm nút biểu tượng thời tiết/tin tức trên Taskbar và các bảng tin trên màn hình khóa.",
+      "ApplyText": "Đang tắt tiện ích Widgets trên thanh tác vụ & màn hình khóa"
+    },
+    "HideChat": {
+      "Label": "Ẩn biểu tượng Chat (Meet Now) khỏi thanh tác vụ",
+      "ToolTip": "Ẩn biểu tượng Microsoft Teams Chat (Meet Now) khỏi thanh tác vụ.",
+      "ApplyText": "Đang ẩn biểu tượng chat khỏi thanh tác vụ",
+      "UndoLabel": "Hiện biểu tượng Chat (Meet Now) trên thanh tác vụ",
+      "ApplyUndoText": "Đang hiện biểu tượng chat trên thanh tác vụ"
+    },
+    "DisableStorageSense": {
+      "Label": "Tắt tính năng tự động dọn dẹp ổ đĩa (Storage Sense)",
+      "ToolTip": "Tắt tính năng Storage Sense tự động xóa các tệp tạm thời, dọn sạch thùng rác và xóa tệp trong thư mục Downloads.",
+      "ApplyText": "Đang tắt tính năng tự động dọn dẹp đĩa Storage Sense",
+      "UndoLabel": "Bật tính năng tự động dọn dẹp ổ đĩa (Storage Sense)",
+      "ApplyUndoText": "Đang bật tính năng tự động dọn dẹp đĩa Storage Sense"
+    },
+    "DisableFastStartup": {
+      "Label": "Tắt tính năng khởi động nhanh (Fast Start-up / Khởi động lai)",
+      "ToolTip": "Khởi động nhanh lưu ảnh trạng thái hệ thống vào ổ đĩa khi tắt máy để khởi động lại nhanh hơn. Việc tắt nó giúp giải quyết các xung đột driver, lỗi ngủ đông và cho phép tắt máy hoàn toàn.",
+      "ApplyText": "Đang tắt tính năng Khởi động nhanh",
+      "UndoLabel": "Bật tính năng khởi động nhanh (Fast Start-up)",
+      "ApplyUndoText": "Đang bật tính năng Khởi động nhanh"
+    },
+    "DisableBitlockerAutoEncryption": {
+      "Label": "Tắt tính năng tự động mã hóa ổ đĩa bằng BitLocker",
+      "ToolTip": "Trên các thiết bị hỗ trợ, Windows 11 sẽ tự động bật mã hóa thiết bị bằng BitLocker. Tùy chọn này sẽ ngăn việc tự động mã hóa, bạn vẫn có thể bật BitLocker thủ công khi cần. Các ổ đĩa đã mã hóa từ trước sẽ vẫn được giữ nguyên.",
+      "ApplyText": "Đang tắt tính năng tự động mã hóa thiết bị BitLocker",
+      "UndoLabel": "Bật tính năng tự động mã hóa thiết bị bằng BitLocker",
+      "ApplyUndoText": "Đang bật tính năng tự động mã hóa thiết bị BitLocker"
+    },
+    "DisableModernStandbyNetworking": {
+      "Label": "Ngắt kết nối mạng khi ở chế độ ngủ (Modern Standby)",
+      "ToolTip": "Mặc định các máy hỗ trợ Modern Standby vẫn duy trì kết nối mạng Wi-Fi khi máy đang ngủ. Việc tắt kết nối mạng trong chế độ ngủ giúp tiết kiệm đáng kể pin cho laptop.",
+      "ApplyText": "Đang tắt kết nối mạng trong chế độ Modern Standby",
+      "UndoLabel": "Bật kết nối mạng trong chế độ Modern Standby",
+      "ApplyUndoText": "Đang bật kết nối mạng trong chế độ Modern Standby"
+    },
+    "EnableEndTask": {
+      "Label": "Thêm tùy chọn 'Kết thúc tác vụ' (End Task) vào menu chuột phải trên Taskbar",
+      "ToolTip": "Khi bật, menu chuột phải vào biểu tượng ứng dụng trên thanh tác vụ sẽ có thêm mục 'End Task', cho phép bạn buộc đóng ứng dụng bị treo ngay lập tức mà không cần mở Task Manager.",
+      "ApplyText": "Đang thêm tùy chọn 'End Task' vào menu chuột phải trên thanh tác vụ",
+      "UndoLabel": "Ẩn tùy chọn 'Kết thúc tác vụ' khỏi menu chuột phải trên Taskbar",
+      "ApplyUndoText": "Đang bỏ tùy chọn 'End Task' khỏi menu chuột phải trên thanh tác vụ"
+    },
+    "EnableLastActiveClick": {
+      "Label": "Bật tính năng 'Nhấp chuyển đến cửa sổ gần nhất' (Last Active Click) trên Taskbar",
+      "ToolTip": "Khi bật, nhấp vào biểu tượng ứng dụng trên thanh tác vụ sẽ lập tức chuyển ngay đến cửa sổ đang hoạt động gần nhất của ứng dụng đó, thay vì chỉ hiện ô hình thu nhỏ (thumbnail).",
+      "ApplyText": "Đang bật hành vi 'Last Active Click' trên thanh tác vụ",
+      "UndoLabel": "Tắt tính năng 'Last Active Click' trên thanh tác vụ",
+      "ApplyUndoText": "Đang tắt hành vi 'Last Active Click' trên thanh tác vụ"
+    },
+    "CombineTaskbarAlways": {
+      "Label": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên màn hình chính",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình chính luôn gộp nút và ẩn nhãn"
+    },
+    "CombineMMTaskbarAlways": {
+      "Label": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên các màn hình phụ",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình phụ luôn gộp nút và ẩn nhãn"
+    },
+    "CombineTaskbarWhenFull": {
+      "Label": "Chỉ gộp các nút tác vụ và ẩn nhãn khi thanh tác vụ bị đầy trên màn hình chính",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình chính chỉ gộp nút khi thanh tác vụ đầy",
+      "UndoLabel": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên màn hình chính",
+      "ApplyUndoText": "Đang đặt thanh tác vụ trên màn hình chính luôn gộp nút và ẩn nhãn"
+    },
+    "CombineMMTaskbarWhenFull": {
+      "Label": "Chỉ gộp các nút tác vụ và ẩn nhãn khi thanh tác vụ bị đầy trên các màn hình phụ",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình phụ chỉ gộp nút khi thanh tác vụ đầy",
+      "UndoLabel": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên các màn hình phụ",
+      "ApplyUndoText": "Đang đặt thanh tác vụ trên màn hình phụ luôn gộp nút và ẩn nhãn"
+    },
+    "CombineTaskbarNever": {
+      "Label": "Không bao giờ gộp các nút tác vụ và luôn hiện nhãn chữ trên màn hình chính",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình chính không bao giờ gộp nút và luôn hiện nhãn",
+      "UndoLabel": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên màn hình chính",
+      "ApplyUndoText": "Đang đặt thanh tác vụ trên màn hình chính luôn gộp nút và ẩn nhãn"
+    },
+    "CombineMMTaskbarNever": {
+      "Label": "Không bao giờ gộp các nút tác vụ và luôn hiện nhãn chữ trên các màn hình phụ",
+      "ApplyText": "Đang đặt thanh tác vụ trên màn hình phụ không bao giờ gộp nút và luôn hiện nhãn",
+      "UndoLabel": "Luôn gộp các nút tác vụ và ẩn nhãn chữ trên các màn hình phụ",
+      "ApplyUndoText": "Đang đặt thanh tác vụ trên màn hình phụ luôn gộp nút và ẩn nhãn"
+    },
+    "MMTaskbarModeAll": {
+      "Label": "Hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ",
+      "ApplyText": "Đang đặt thanh tác vụ hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ"
+    },
+    "MMTaskbarModeMainActive": {
+      "Label": "Hiện biểu tượng ứng dụng trên thanh tác vụ chính và thanh tác vụ nơi cửa sổ đang mở",
+      "ApplyText": "Đang đặt thanh tác vụ hiện biểu tượng trên thanh tác vụ chính và thanh tác vụ nơi cửa sổ đang mở",
+      "UndoLabel": "Hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ",
+      "ApplyUndoText": "Đang đặt thanh tác vụ hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ"
+    },
+    "MMTaskbarModeActive": {
+      "Label": "Chỉ hiện biểu tượng ứng dụng trên thanh tác vụ nơi cửa sổ đang mở",
+      "ApplyText": "Đang đặt thanh tác vụ chỉ hiện biểu tượng ứng dụng trên thanh tác vụ nơi cửa sổ đang mở",
+      "UndoLabel": "Hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ",
+      "ApplyUndoText": "Đang đặt thanh tác vụ hiện biểu tượng ứng dụng trên tất cả các thanh tác vụ"
+    },
+    "ExplorerToHome": {
+      "Label": "Mở File Explorer vào vị trí mặc định 'Trang chủ' (Home)",
+      "ApplyText": "Đang đổi vị trí mở mặc định của File Explorer thành 'Home'"
+    },
+    "ExplorerToThisPC": {
+      "Label": "Mở File Explorer vào vị trí mặc định 'This PC'",
+      "ApplyText": "Đang đổi vị trí mở mặc định của File Explorer thành 'This PC'",
+      "UndoLabel": "Mở File Explorer vào vị trí mặc định 'Trang chủ' (Home)",
+      "ApplyUndoText": "Đang đổi vị trí mở mặc định của File Explorer thành 'Home'"
+    },
+    "ExplorerToDownloads": {
+      "Label": "Mở File Explorer vào vị trí mặc định 'Downloads' (Tải xuống)",
+      "ApplyText": "Đang đổi vị trí mở mặc định của File Explorer thành 'Downloads'",
+      "UndoLabel": "Mở File Explorer vào vị trí mặc định 'Trang chủ' (Home)",
+      "ApplyUndoText": "Đang đổi vị trí mở mặc định của File Explorer thành 'Home'"
+    },
+    "ExplorerToOneDrive": {
+      "Label": "Mở File Explorer vào vị trí mặc định 'OneDrive'",
+      "ApplyText": "Đang đổi vị trí mở mặc định của File Explorer thành 'OneDrive'",
+      "UndoLabel": "Mở File Explorer vào vị trí mặc định 'Trang chủ' (Home)",
+      "ApplyUndoText": "Đang đổi vị trí mở mặc định của File Explorer thành 'Home'"
+    },
+    "ShowKnownFileExt": {
+      "Label": "Hiện phần mở rộng đuôi tệp (ví dụ: .txt, .exe, .docx)",
+      "ToolTip": "Hiển thị phần mở rộng của các định dạng tệp đã biết. Mặc định Windows ẩn đuôi tệp, điều này có thể gây nhầm lẫn và tiềm ẩn rủi ro bảo mật (như nhấp nhầm tệp virus giả dạng).",
+      "ApplyText": "Đang bật hiển thị phần mở rộng của tệp",
+      "UndoLabel": "Ẩn phần mở rộng đuôi tệp",
+      "ApplyUndoText": "Đang ẩn phần mở rộng của tệp"
+    },
+    "ShowHiddenFolders": {
+      "Label": "Hiện các tệp, thư mục và ổ đĩa bị ẩn",
+      "ToolTip": "Mặc định Windows ẩn một số tệp hệ thống để tránh vô tình chỉnh sửa. Bật tùy chọn này để hiển thị toàn bộ tệp ẩn trong File Explorer.",
+      "ApplyText": "Đang hiển thị các tệp, thư mục và ổ đĩa bị ẩn",
+      "UndoLabel": "Ẩn các tệp, thư mục và ổ đĩa bị ẩn",
+      "ApplyUndoText": "Đang ẩn các tệp, thư mục và ổ đĩa bị ẩn"
+    },
+    "HideDupliDrive": {
+      "Label": "Ẩn các biểu tượng ổ đĩa rời bị trùng lặp trong thanh điều hướng",
+      "ToolTip": "Mặc định Windows hiển thị ổ đĩa USB/ổ rời ở cả mục 'This PC' và thanh điều hướng bên trái. Tùy chọn này giúp thanh điều hướng gọn gàng hơn.",
+      "ApplyText": "Đang ẩn các mục ổ đĩa rời trùng lặp khỏi thanh điều hướng File Explorer",
+      "UndoLabel": "Hiện các biểu tượng ổ đĩa rời trùng lặp",
+      "ApplyUndoText": "Đang hiện các mục ổ đĩa rời trùng lặp trong thanh điều hướng File Explorer"
+    },
+    "HideHome": {
+      "Label": "Ẩn mục 'Home' khỏi thanh điều hướng File Explorer",
+      "ToolTip": "Ẩn hoàn toàn mục 'Home' khỏi thanh điều hướng bên trái của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'Home' khỏi thanh điều hướng File Explorer",
+      "UndoLabel": "Hiện mục 'Home' trong thanh điều hướng",
+      "ApplyUndoText": "Đang hiện mục 'Home' trong thanh điều hướng File Explorer"
+    },
+    "HideGallery": {
+      "Label": "Ẩn mục 'Bộ sưu tập' (Gallery) khỏi thanh điều hướng File Explorer",
+      "ToolTip": "Ẩn mục 'Gallery' khỏi thanh điều hướng bên trái của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'Gallery' khỏi thanh điều hướng File Explorer",
+      "UndoLabel": "Hiện mục 'Bộ sưu tập' (Gallery) trong thanh điều hướng",
+      "ApplyUndoText": "Đang hiện mục 'Gallery' trong thanh điều hướng File Explorer"
+    },
+    "DisableTransparency": {
+      "Label": "Tắt hiệu ứng trong suốt (Transparency effects)",
+      "ToolTip": "Tắt hiệu ứng trong suốt mờ ảo trên cửa sổ và giao diện Windows. Giúp tăng hiệu năng và độ phản hồi trên các máy có cấu hình vừa và yếu.",
+      "ApplyText": "Đang tắt hiệu ứng trong suốt",
+      "UndoLabel": "Bật hiệu ứng trong suốt (Transparency effects)",
+      "ApplyUndoText": "Đang bật hiệu ứng trong suốt"
+    },
+    "DisableAnimations": {
+      "Label": "Tắt hiệu ứng hoạt họa và chuyển động giao diện (Animations)",
+      "ToolTip": "Tắt các chuyển động mở/đóng cửa sổ và hiệu ứng hình ảnh trong Windows. Giúp cảm giác thao tác trên máy tính nhanh và mượt mà hơn đáng kể.",
+      "ApplyText": "Đang tắt hiệu ứng hoạt họa và hiệu ứng hình ảnh",
+      "UndoLabel": "Bật hiệu ứng hoạt họa và chuyển động giao diện",
+      "ApplyUndoText": "Đang bật hiệu ứng hoạt họa và hiệu ứng hình ảnh"
+    },
+    "DisableUpdateASAP": {
+      "Label": "Tắt tùy chọn 'Nhận bản cập nhật mới nhất ngay khi có sẵn'",
+      "ToolTip": "Ngăn máy tính của bạn nằm trong nhóm thử nghiệm đầu tiên nhận các bản cập nhật tính năng mới (chưa ổn định) của Windows. Máy của bạn vẫn sẽ nhận các bản cập nhật khi chúng được phát hành rộng rãi.",
+      "ApplyText": "Đang tắt tùy chọn nhận bản cập nhật ngay khi có sẵn",
+      "UndoLabel": "Bật tùy chọn 'Nhận bản cập nhật mới nhất ngay khi có sẵn'",
+      "ApplyUndoText": "Đang bật tùy chọn nhận bản cập nhật ngay khi có sẵn"
+    },
+    "PreventUpdateAutoReboot": {
+      "Label": "Ngăn máy tự động khởi động lại sau khi cập nhật khi đang đăng nhập",
+      "ToolTip": "Ngăn Windows tự động khởi động lại máy tính sau khi cập nhật nếu đang có bất kỳ tài khoản người dùng nào đăng nhập, tránh làm mất dữ liệu công việc đang làm dở.",
+      "ApplyText": "Đang ngăn tự động khởi động lại sau khi cập nhật khi đang đăng nhập",
+      "UndoLabel": "Cho phép tự động khởi động lại sau khi cập nhật khi đang đăng nhập",
+      "ApplyUndoText": "Đang cho phép tự động khởi động lại sau khi cập nhật khi đang đăng nhập"
+    },
+    "DisableDeliveryOptimization": {
+      "Label": "Tắt chia sẻ bản cập nhật đã tải về với các máy tính khác (P2P Update)",
+      "ToolTip": "Ngăn máy tính của bạn tải lên hoặc chia sẻ các bản cập nhật Windows với các máy tính khác trong mạng nội bộ hoặc trên Internet. Tiết kiệm băng thông mạng.",
+      "ApplyText": "Đang tắt tính năng chia sẻ bản cập nhật với các máy khác",
+      "UndoLabel": "Bật chia sẻ bản cập nhật đã tải về với các máy tính khác",
+      "ApplyUndoText": "Đang bật tính năng chia sẻ bản cập nhật với các máy khác"
+    },
+    "DisableDeviceAutoAppDownload": {
+      "Label": "Ngăn Windows tự động cài đặt ứng dụng đi kèm thiết bị phần cứng",
+      "ToolTip": "Ngăn Windows Update tự động tải ngầm các ứng dụng quản lý của bên thứ ba khi cắm thiết bị mới (chẳng hạn như phần mềm đi kèm màn hình LG, Alienware,...). Thiết bị của bạn vẫn hoạt động bình thường với driver chuẩn.",
+      "ApplyText": "Đang ngăn tự động cài đặt ứng dụng đi kèm thiết bị",
+      "UndoLabel": "Cho phép tự động cài đặt ứng dụng đi kèm thiết bị",
+      "ApplyUndoText": "Đang cho phép tự động cài đặt ứng dụng đi kèm thiết bị"
+    },
+    "ForceRemoveEdge": {
+      "Label": "Gỡ cài đặt cưỡng bức Microsoft Edge (KHÔNG KHUYẾN NGHỊ!)",
+      "ApplyText": "Đang gỡ cài đặt cưỡng bức Microsoft Edge"
+    },
+    "HideOnedrive": {
+      "Label": "Ẩn thư mục 'OneDrive' khỏi thanh điều hướng File Explorer",
+      "ToolTip": "Ẩn mục OneDrive khỏi thanh điều hướng bên trái của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'OneDrive' khỏi thanh điều hướng File Explorer",
+      "UndoLabel": "Hiện thư mục 'OneDrive' trong thanh điều hướng",
+      "ApplyUndoText": "Đang hiện mục 'OneDrive' trong thanh điều hướng File Explorer"
+    },
+    "Hide3dObjects": {
+      "Label": "Ẩn thư mục '3D Objects' dưới mục 'This PC'",
+      "ToolTip": "Ẩn thư mục 3D Objects khỏi thanh điều hướng và giao diện This PC trong File Explorer.",
+      "ApplyText": "Đang ẩn thư mục '3D Objects' khỏi File Explorer",
+      "UndoLabel": "Hiện thư mục '3D Objects' dưới mục 'This PC'",
+      "ApplyUndoText": "Đang hiện thư mục '3D Objects' trong File Explorer"
+    },
+    "HideMusic": {
+      "Label": "Ẩn thư mục 'Music' (Nhạc) dưới mục 'This PC'",
+      "ToolTip": "Ẩn thư mục Music khỏi thanh điều hướng File Explorer nếu bạn không có nhu cầu sử dụng.",
+      "ApplyText": "Đang ẩn thư mục 'Music' khỏi File Explorer",
+      "UndoLabel": "Hiện thư mục 'Music' dưới mục 'This PC'",
+      "ApplyUndoText": "Đang hiện thư mục 'Music' trong File Explorer"
+    },
+    "AddFoldersToThisPC": {
+      "Label": "Thêm lại các thư mục cá nhân quen thuộc vào giao diện 'This PC'",
+      "ToolTip": "Thêm lại các thư mục quen thuộc như Desktop, Documents, Downloads, Music, Pictures và Videos vào trang 'This PC' trong File Explorer giống như trên Windows 10.",
+      "ApplyText": "Đang thêm lại các thư mục cá nhân (Desktop, Downloads,...) vào 'This PC'",
+      "UndoLabel": "Xóa các thư mục cá nhân khỏi trang 'This PC'",
+      "ApplyUndoText": "Đang xóa các thư mục cá nhân khỏi 'This PC'"
+    },
+    "HideIncludeInLibrary": {
+      "Label": "Ẩn mục 'Include in library' (Đưa vào thư viện) trong menu chuột phải",
+      "ToolTip": "Ẩn dòng 'Include in library' khỏi menu ngữ cảnh chuột phải của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'Include in library' trong menu chuột phải",
+      "UndoLabel": "Hiện mục 'Include in library' trong menu chuột phải",
+      "ApplyUndoText": "Đang hiện mục 'Include in library' trong menu chuột phải"
+    },
+    "HideGiveAccessTo": {
+      "Label": "Ẩn mục 'Give access to' (Cấp quyền truy cập) trong menu chuột phải",
+      "ToolTip": "Ẩn tùy chọn 'Give access to' khỏi menu chuột phải của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'Give access to' trong menu chuột phải",
+      "UndoLabel": "Hiện mục 'Give access to' trong menu chuột phải",
+      "ApplyUndoText": "Đang hiện mục 'Give access to' trong menu chuột phải"
+    },
+    "HideShare": {
+      "Label": "Ẩn mục 'Share' (Chia sẻ) trong menu ngữ cảnh chuột phải",
+      "ToolTip": "Ẩn tùy chọn 'Share' khỏi menu chuột phải của File Explorer.",
+      "ApplyText": "Đang ẩn mục 'Share' trong menu chuột phải",
+      "UndoLabel": "Hiện mục 'Share' trong menu chuột phải",
+      "ApplyUndoText": "Đang hiện mục 'Share' trong menu chuột phải"
+    },
+    "DisableBraveBloat": {
+      "Label": "Tắt các tính năng rác trong trình duyệt Brave (AI, Crypto, VPN,...)",
+      "ToolTip": "Tắt các tính năng phụ của trình duyệt Brave bao gồm AI Leo, ví tiền mã hóa Crypto, bảng tin tức, phần thưởng Rewards, Brave Talk và VPN. Sử dụng Group Policy.",
+      "ApplyText": "Đang tắt AI, Crypto, Tin tức, Rewards, Talk và VPN trong trình duyệt Brave",
+      "UndoLabel": "Bật lại các tính năng trong trình duyệt Brave (AI, Crypto,...)",
+      "ApplyUndoText": "Đang bật lại AI, Crypto, Tin tức, Rewards, Talk và VPN trong trình duyệt Brave"
+    },
+    "EnableWindowsSandbox": {
+      "Label": "Bật môi trường thử nghiệm cô lập Windows Sandbox",
+      "ToolTip": "Windows Sandbox là môi trường máy ảo siêu nhẹ và an toàn để mở thử các ứng dụng đáng ngờ mà không sợ ảnh hưởng đến máy thật. Sau khi đóng cửa sổ Sandbox, toàn bộ dữ liệu bên trong sẽ bị xóa sạch. Chỉ hỗ trợ trên Windows 11 Pro, Workstation và Enterprise.",
+      "ApplyText": "Đang kích hoạt Windows Sandbox",
+      "UndoLabel": "Tắt Windows Sandbox",
+      "ApplyUndoText": "Đang tắt Windows Sandbox"
+    },
+    "EnableWindowsSubsystemForLinux": {
+      "Label": "Bật hệ thống con Windows dành cho Linux (WSL)",
+      "ToolTip": "Windows Subsystem for Linux cho phép bạn chạy trực tiếp môi trường Linux (Ubuntu, Debian,...) ngay trên Windows mà không cần cài máy ảo nặng nề.",
+      "ApplyText": "Đang kích hoạt Windows Subsystem for Linux (WSL)",
+      "UndoLabel": "Tắt Windows Subsystem for Linux (WSL)",
+      "ApplyUndoText": "Đang tắt Windows Subsystem for Linux (WSL)"
+    },
+    "ShowDriveLettersFirst": {
+      "Label": "Hiện ký tự ổ đĩa trước tên nhãn ổ đĩa (ví dụ: (C:) Windows)",
+      "ToolTip": "Hiển thị ký tự ổ đĩa ở phía trước tên của ổ trong File Explorer.",
+      "ApplyText": "Đang đặt ký tự ổ đĩa hiển thị trước nhãn ổ đĩa",
+      "UndoLabel": "Hiện ký tự ổ đĩa sau tên nhãn ổ đĩa",
+      "ApplyUndoText": "Đang đặt ký tự ổ đĩa hiển thị sau nhãn ổ đĩa"
+    },
+    "ShowDriveLettersLast": {
+      "Label": "Hiện ký tự ổ đĩa sau tên nhãn ổ đĩa (ví dụ: Windows (C:))",
+      "ToolTip": "Hiển thị ký tự ổ đĩa ở phía sau tên ổ đĩa trong File Explorer (hành vi mặc định của Windows).",
+      "ApplyText": "Đang đặt ký tự ổ đĩa hiển thị sau nhãn ổ đĩa"
+    },
+    "ShowNetworkDriveLettersFirst": {
+      "Label": "Chỉ hiện ký tự ổ đĩa trước nhãn đối với các ổ đĩa mạng",
+      "ToolTip": "Chỉ áp dụng việc hiện ký tự ổ đĩa phía trước tên nhãn đối với các ổ đĩa kết nối qua mạng trong File Explorer.",
+      "ApplyText": "Đang đặt ký tự ổ đĩa mạng hiển thị trước nhãn ổ đĩa",
+      "UndoLabel": "Hiện ký tự ổ đĩa sau tên nhãn ổ đĩa",
+      "ApplyUndoText": "Đang đặt ký tự ổ đĩa hiển thị sau nhãn ổ đĩa"
+    },
+    "HideDriveLetters": {
+      "Label": "Ẩn hoàn toàn tất cả các ký tự chữ cái của ổ đĩa",
+      "ToolTip": "Ẩn toàn bộ các ký tự chữ cái (C:, D:,...) khỏi thanh điều hướng và giao diện This PC trong File Explorer.",
+      "ApplyText": "Đang ẩn toàn bộ ký tự ổ đĩa",
+      "UndoLabel": "Hiện ký tự ổ đĩa sau tên nhãn ổ đĩa",
+      "ApplyUndoText": "Đang đặt ký tự ổ đĩa hiển thị sau nhãn ổ đĩa"
+    },
+    "StartAllAppsCategory": {
+      "Label": "Hiển thị Tất cả ứng dụng theo Nhóm danh mục (Mặc định)",
+      "ToolTip": "Đặt mục Tất cả ứng dụng trong Start Menu hiển thị các ứng dụng được nhóm theo danh mục chức năng.",
+      "ApplyText": "Đang đặt hiển thị Tất cả ứng dụng theo Danh mục"
+    },
+    "StartAllAppsGrid": {
+      "Label": "Hiển thị Tất cả ứng dụng theo Dạng lưới (Grid)",
+      "ToolTip": "Đặt mục Tất cả ứng dụng trong Start Menu hiển thị theo dạng lưới biểu tượng theo thứ tự bảng chữ cái.",
+      "ApplyText": "Đang đặt hiển thị Tất cả ứng dụng theo Dạng lưới",
+      "UndoLabel": "Hiển thị Tất cả ứng dụng theo Nhóm danh mục",
+      "ApplyUndoText": "Đang đặt hiển thị Tất cả ứng dụng theo Danh mục"
+    },
+    "StartAllAppsList": {
+      "Label": "Hiển thị Tất cả ứng dụng theo Danh sách dọc (List)",
+      "ToolTip": "Đặt mục Tất cả ứng dụng trong Start Menu hiển thị theo dạng danh sách cuộn dọc theo bảng chữ cái.",
+      "ApplyText": "Đang đặt hiển thị Tất cả ứng dụng theo Danh sách dọc",
+      "UndoLabel": "Hiển thị Tất cả ứng dụng theo Nhóm danh mục",
+      "ApplyUndoText": "Đang đặt hiển thị Tất cả ứng dụng theo Danh mục"
+    }
+  },
+  "UiGroups": {
+    "DesktopSpotlight": {
+      "Label": "Hình nền Windows Spotlight trên màn hình chính",
+      "ToolTip": "Cài đặt này điều khiển tính năng hình nền tự động đổi của Windows Spotlight. Bạn có thể giữ hình nền có/không có lối tắt 'Tìm hiểu thêm về bức ảnh này', hoặc tắt hoàn toàn.",
+      "Values": {
+        "EnableDesktopSpotlight": "Hiện lối tắt 'Tìm hiểu thêm về bức ảnh này' (Mặc định)",
+        "HideDesktopSpotlightIcon": "Ẩn lối tắt 'Tìm hiểu thêm về bức ảnh này'",
+        "DisableDesktopSpotlight": "Tắt tính năng hình nền Windows Spotlight trên desktop"
+      }
+    },
+    "SearchIcon": {
+      "Label": "Kiểu tìm kiếm trên thanh tác vụ (Taskbar)",
+      "ToolTip": "Tùy chỉnh kiểu dáng và kích thước của thanh/nút tìm kiếm hiển thị trên thanh tác vụ.",
+      "Values": {
+        "ShowSearchBoxTb": "Hiện hộp tìm kiếm đầy đủ (Mặc định)",
+        "ShowSearchLabelTb": "Hiện biểu tượng kính lúp kèm chữ",
+        "ShowSearchIconTb": "Chỉ hiện biểu tượng kính lúp",
+        "HideSearchTb": "Ẩn hoàn toàn"
+      }
+    },
+    "MultiMon": {
+      "Label": "Hiển thị biểu tượng ứng dụng trên thanh tác vụ đa màn hình",
+      "ToolTip": "Cho phép chọn cách thức hiển thị các biểu tượng ứng dụng đang mở khi sử dụng từ 2 màn hình trở lên.",
+      "Values": {
+        "MMTaskbarModeAll": "Tất cả các thanh tác vụ (Mặc định)",
+        "MMTaskbarModeMainActive": "Thanh tác vụ chính và thanh tác vụ nơi cửa sổ đang mở",
+        "MMTaskbarModeActive": "Chỉ trên thanh tác vụ nơi cửa sổ đang mở"
+      }
+    },
+    "CombineButtons": {
+      "Label": "Gộp các nút tác vụ trên màn hình chính",
+      "ToolTip": "Tùy chọn cách thức gộp các cửa sổ của cùng một ứng dụng trên thanh tác vụ màn hình chính.",
+      "Values": {
+        "CombineTaskbarAlways": "Luôn luôn gộp (Mặc định)",
+        "CombineTaskbarWhenFull": "Chỉ gộp khi thanh tác vụ bị đầy",
+        "CombineTaskbarNever": "Không bao giờ gộp"
+      }
+    },
+    "CombineMMButtons": {
+      "Label": "Gộp các nút tác vụ trên màn hình phụ",
+      "ToolTip": "Tùy chọn cách thức gộp các cửa sổ của cùng một ứng dụng trên thanh tác vụ màn hình phụ.",
+      "Values": {
+        "CombineMMTaskbarAlways": "Luôn luôn gộp (Mặc định)",
+        "CombineMMTaskbarWhenFull": "Chỉ gộp khi thanh tác vụ bị đầy",
+        "CombineMMTaskbarNever": "Không bao giờ gộp"
+      }
+    },
+    "ClearStart": {
+      "Label": "Xóa các ứng dụng đã ghim trên Start Menu",
+      "ToolTip": "Nhanh chóng xóa toàn bộ các ứng dụng được ghim mặc định trên Start Menu để có menu sạch sẽ.",
+      "Values": {
+        "ClearStart": "Chỉ xóa cho người dùng hiện tại",
+        "ClearStartAllUsers": "Xóa cho tất cả người dùng"
+      }
+    },
+    "ExplorerLocation": {
+      "Label": "Mở File Explorer vào vị trí",
+      "ToolTip": "Chọn thư mục mặc định mà File Explorer sẽ mở ra đầu tiên khi bạn khởi động.",
+      "Values": {
+        "ExplorerToHome": "Trang chủ - Home (Mặc định)",
+        "ExplorerToThisPC": "This PC",
+        "ExplorerToDownloads": "Thư mục Tải xuống (Downloads)",
+        "ExplorerToOneDrive": "OneDrive"
+      }
+    },
+    "DriveLetterPosition": {
+      "Label": "Vị trí hiển thị ký tự ổ đĩa",
+      "ToolTip": "Chọn vị trí hiển thị ký tự ổ đĩa (C:, D:,...) trong File Explorer.",
+      "Values": {
+        "ShowDriveLettersLast": "Hiện ký tự sau tên nhãn ổ đĩa (Mặc định)",
+        "ShowDriveLettersFirst": "Hiện ký tự trước tên nhãn ổ đĩa",
+        "ShowNetworkDriveLettersFirst": "Hiện ký tự trước tên nhãn đối với ổ đĩa mạng",
+        "HideDriveLetters": "Ẩn toàn bộ ký tự ổ đĩa"
+      }
+    },
+    "ShowTabsInAltTab": {
+      "Label": "Hiện các tab trình duyệt khi căn chỉnh hoặc bấm Alt+Tab",
+      "ToolTip": "Tùy chọn có hiển thị các thẻ tab từ trình duyệt (như Microsoft Edge) trong danh sách cửa sổ khi bấm tổ hợp phím Alt+Tab hay không.",
+      "Values": {
+        "HideTabsInAltTab": "Không hiện các tab trình duyệt",
+        "Show3TabsInAltTab": "Hiện 3 tab gần nhất (Mặc định)",
+        "Show5TabsInAltTab": "Hiện 5 tab gần nhất",
+        "Show20TabsInAltTab": "Hiện 20 tab gần nhất"
+      }
+    },
+    "StartAllAppsView": {
+      "Label": "Chế độ hiển thị 'Tất cả ứng dụng' trong Start Menu",
+      "ToolTip": "Thay đổi cách bố trí danh sách Tất cả ứng dụng trên Start Menu hoặc ẩn hoàn toàn.",
+      "Values": {
+        "DisableStartAllApps": "Ẩn hoàn toàn",
+        "StartAllAppsCategory": "Theo danh mục (Mặc định)",
+        "StartAllAppsGrid": "Dạng lưới",
+        "StartAllAppsList": "Dạng danh sách dọc"
+      }
+    }
+  }
+}

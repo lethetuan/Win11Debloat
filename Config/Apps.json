@@ -1,0 +1,1177 @@
+﻿{
+  "Version": "1.1",
+  "Apps": [
+    {
+      "FriendlyName": "Clipchamp",
+      "AppId": "Clipchamp.Clipchamp",
+      "Description": "Trình chỉnh sửa video từ Microsoft",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D Builder",
+      "AppId": "Microsoft.3DBuilder",
+      "Description": "Phần mềm mô hình hóa 3D cơ bản",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cortana",
+      "AppId": "Microsoft.549981C3F5F10",
+      "Description": "Trợ lý ảo giọng nói Microsoft Cortana (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Finance",
+      "AppId": "Microsoft.BingFinance",
+      "Description": "Tin tức và theo dõi tài chính qua Bing (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Food And Drink",
+      "AppId": "Microsoft.BingFoodAndDrink",
+      "Description": "Công thức và tin tức ẩm thực qua Bing (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Health And Fitness",
+      "AppId": "Microsoft.BingHealthAndFitness",
+      "Description": "Theo dõi sức khỏe và thể chất qua Bing (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing News",
+      "AppId": "Microsoft.BingNews",
+      "Description": "Ứng dụng tổng hợp tin tức Bing (Thay thế bởi Microsoft News/Start)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Sports",
+      "AppId": "Microsoft.BingSports",
+      "Description": "Tin tức và kết quả thể thao qua Bing (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Translator",
+      "AppId": "Microsoft.BingTranslator",
+      "Description": "Dịch vụ dịch thuật ngôn ngữ qua Bing",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Travel",
+      "AppId": "Microsoft.BingTravel",
+      "Description": "Lên kế hoạch du lịch và tin tức qua Bing (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Weather",
+      "AppId": "Microsoft.BingWeather",
+      "Description": "Dự báo thời tiết qua Bing",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Copilot",
+      "AppId": "XP9CXNGPPJ97XX",
+      "Description": "Trợ lý AI tích hợp trong Windows",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Copilot+ AI Hub",
+      "AppId": "Microsoft.Windows.AIHub",
+      "Description": "Ứng dụng Copilot+ AI Hub (Windows 11 24H2 trở lên)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft PC Manager",
+      "AppId": "Microsoft.PCManager",
+      "Description": "Công cụ dọn dẹp và tối ưu hóa hệ thống Microsoft PC Manager (thường được cài sẵn)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Get Started",
+      "AppId": "Microsoft.Getstarted",
+      "Description": "Mẹo và hướng dẫn làm quen với Windows (Không thể gỡ cài đặt trên Windows 11)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Messaging",
+      "AppId": "Microsoft.Messaging",
+      "Description": "Ứng dụng nhắn tin, thường tích hợp với Skype (Hầu như đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D Viewer",
+      "AppId": "Microsoft.Microsoft3DViewer",
+      "Description": "Trình xem các mô hình 3D",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Journal",
+      "AppId": "Microsoft.MicrosoftJournal",
+      "Description": "Ứng dụng ghi chú kỹ thuật số tối ưu cho bút cảm ứng",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Office Hub",
+      "AppId": "Microsoft.MicrosoftOfficeHub",
+      "Description": "Trung tâm truy cập các ứng dụng và tài liệu Microsoft Office (Tiền thân của ứng dụng Microsoft 365)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power BI",
+      "AppId": "Microsoft.MicrosoftPowerBIForWindows",
+      "Description": "Ứng dụng khách cho dịch vụ phân tích dữ liệu doanh nghiệp",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Solitaire Collection",
+      "AppId": "Microsoft.MicrosoftSolitaireCollection",
+      "Description": "Bộ sưu tập các trò chơi bài Solitaire",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sticky Notes",
+      "AppId": "Microsoft.MicrosoftStickyNotes",
+      "Description": "Ứng dụng ghi chú nhanh (Đã ngừng phát triển & thay thế bằng OneNote)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Mixed Reality Portal",
+      "AppId": "Microsoft.MixedReality.Portal",
+      "Description": "Cổng kết nối cho kính thực tế ảo Windows Mixed Reality",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Network Speed Test",
+      "AppId": "Microsoft.NetworkSpeedTest",
+      "Description": "Tiện ích đo tốc độ kết nối Internet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft News",
+      "AppId": "Microsoft.News",
+      "Description": "Ứng dụng tổng hợp tin tức (Thay thế Bing News, hiện là một phần của Microsoft Start)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneNote",
+      "AppId": "Microsoft.Office.OneNote",
+      "Description": "Ứng dụng ghi chú kỹ thuật số (Phiên bản Universal Windows Platform)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sway",
+      "AppId": "Microsoft.Office.Sway",
+      "Description": "Ứng dụng tạo bài thuyết trình và kể chuyện tương tác",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Connect",
+      "AppId": "Microsoft.OneConnect",
+      "Description": "Ứng dụng quản lý nhà mạng di động (Được thay thế bởi Mobile Plans)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Print 3D",
+      "AppId": "Microsoft.Print3D",
+      "Description": "Phần mềm chuẩn bị và in 3D",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power Automate",
+      "AppId": "Microsoft.PowerAutomateDesktop",
+      "Description": "Công cụ tự động hóa quy trình trên máy tính (RPA)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Skype (UWP)",
+      "AppId": "Microsoft.SkypeApp",
+      "Description": "Ứng dụng liên lạc Skype, phiên bản Universal Windows Platform (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft To Do",
+      "AppId": "Microsoft.Todos",
+      "Description": "Ứng dụng quản lý công việc và danh sách cần làm",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dev Home",
+      "AppId": "Microsoft.Windows.DevHome",
+      "Description": "Bảng điều khiển và tiện ích cấu hình công cụ dành cho lập trình viên (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Alarms & Clock",
+      "AppId": "Microsoft.WindowsAlarms",
+      "Description": "Ứng dụng Báo thức & Đồng hồ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Feedback Hub",
+      "AppId": "Microsoft.WindowsFeedbackHub",
+      "Description": "Ứng dụng gửi phản hồi và báo lỗi cho Microsoft về Windows",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Maps",
+      "AppId": "Microsoft.WindowsMaps",
+      "Description": "Ứng dụng Bản đồ và dẫn đường của Windows",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sound Recorder",
+      "AppId": "Microsoft.WindowsSoundRecorder",
+      "Description": "Ứng dụng ghi âm cơ bản",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Console Companion",
+      "AppId": "Microsoft.XboxApp",
+      "Description": "Ứng dụng Xbox Console Companion cũ (Đã ngừng phát triển)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Movies & TV",
+      "AppId": "Microsoft.ZuneVideo",
+      "Description": "Ứng dụng xem, thuê và mua nội dung video (Đổi tên thành \"Films & TV\")",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Family Safety",
+      "AppId": "MicrosoftCorporationII.MicrosoftFamily",
+      "Description": "Ứng dụng Family Safety quản lý tài khoản và cài đặt gia đình",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Quick Assist",
+      "AppId": "MicrosoftCorporationII.QuickAssist",
+      "Description": "Công cụ hỗ trợ điều khiển máy tính từ xa",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (Old)",
+      "AppId": "MicrosoftTeams",
+      "Description": "Ứng dụng Microsoft Teams cá nhân cũ (Bản Microsoft Store)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (New)",
+      "AppId": "MSTeams",
+      "Description": "Ứng dụng Microsoft Teams mới (Cá nhân, Công việc hoặc Trường học)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ACG Media Player",
+      "AppId": "ACGMediaPlayer",
+      "Description": "Ứng dụng trình phát đa phương tiện",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Actipro Software",
+      "AppId": "ActiproSoftwareLLC",
+      "Description": "Các điều khiển giao diện hoặc thành phần phần mềm, thường được nhà sản xuất OEM cài sẵn",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Adobe Photoshop Express",
+      "AppId": "AdobeSystemsIncorporated.AdobePhotoshopExpress",
+      "Description": "Ứng dụng chỉnh sửa ảnh cơ bản từ Adobe",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Amazon",
+      "AppId": "Amazon.com.Amazon",
+      "Description": "Ứng dụng mua sắm Amazon",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Prime Video",
+      "AppId": "AmazonVideo.PrimeVideo",
+      "Description": "Ứng dụng dịch vụ xem phim trực tuyến Amazon Prime Video",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Asphalt 8",
+      "AppId": "Asphalt8Airborne",
+      "Description": "Trò chơi đua xe Asphalt 8",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Autodesk SketchBook",
+      "AppId": "AutodeskSketchBook",
+      "Description": "Ứng dụng vẽ và phác thảo kỹ thuật số",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Caesars Slots",
+      "AppId": "CaesarsSlotsFreeCasino",
+      "Description": "Trò chơi máy quay slot casino",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cooking Fever",
+      "AppId": "COOKINGFEVER",
+      "Description": "Trò chơi mô phỏng quản lý nhà hàng",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "CyberLink Media Suite",
+      "AppId": "CyberLinkMediaSuiteEssentials",
+      "Description": "Bộ phần mềm đa phương tiện (thường được nhà sản xuất OEM cài sẵn)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney Magic Kingdoms",
+      "AppId": "DisneyMagicKingdoms",
+      "Description": "Trò chơi xây dựng công viên giải trí Disney",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney+",
+      "AppId": "Disney.37853FC22B2CE",
+      "Description": "Ứng dụng xem phim trực tuyến Disney+",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Drawboard PDF",
+      "AppId": "DrawboardPDF",
+      "Description": "Ứng dụng xem và chú thích PDF chuyên nghiệp, tối ưu cho bút cảm ứng",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Duolingo",
+      "AppId": "Duolingo-LearnLanguagesforFree",
+      "Description": "Ứng dụng học ngoại ngữ Duolingo",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Eclipse Manager",
+      "AppId": "EclipseManager",
+      "Description": "Thường liên quan đến tiện ích OEM quản lý cài đặt màn hình",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Facebook",
+      "AppId": "FACEBOOK.FACEBOOK",
+      "Description": "Ứng dụng mạng xã hội Facebook",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "FarmVille 2",
+      "AppId": "FarmVille2CountryEscape",
+      "Description": "Trò chơi mô phỏng nông trại FarmVille 2",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Flipboard",
+      "AppId": "Flipboard",
+      "Description": "Ứng dụng tổng hợp tin tức và mạng xã hội theo phong cách tạp chí",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hidden City",
+      "AppId": "HiddenCity",
+      "Description": "Trò chơi phiêu lưu giải đố tìm đồ vật ẩn",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hulu",
+      "AppId": "HULULLC.HULUPLUS",
+      "Description": "Ứng dụng xem phim trực tuyến Hulu",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "iHeartRadio",
+      "AppId": "iHeartRadio",
+      "Description": "Ứng dụng nghe radio trực tuyến",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Instagram",
+      "AppId": "Facebook.Instagram",
+      "Description": "Ứng dụng mạng xã hội Instagram",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bubble Witch 3",
+      "AppId": "king.com.BubbleWitch3Saga",
+      "Description": "Trò chơi bắn bóng giải đố từ King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Saga",
+      "AppId": "king.com.CandyCrushSaga",
+      "Description": "Trò chơi xếp kẹo ngọt giải đố từ King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Soda",
+      "AppId": "king.com.CandyCrushSodaSaga",
+      "Description": "Trò chơi giải đố Candy Crush Soda từ King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LinkedIn",
+      "AppId": "LinkedInforWindows",
+      "Description": "Ứng dụng mạng xã hội việc làm chuyên nghiệp LinkedIn",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "March of Empires",
+      "AppId": "MarchofEmpires",
+      "Description": "Trò chơi chiến thuật thời gian thực",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Netflix",
+      "AppId": "4DF9E0F8.Netflix",
+      "Description": "Ứng dụng xem phim trực tuyến Netflix",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "NYT Crossword",
+      "AppId": "NYTCrossword",
+      "Description": "Ứng dụng giải câu đố ô chữ New York Times",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Calendar",
+      "AppId": "OneCalendar",
+      "Description": "Ứng dụng đồng bộ và tổng hợp lịch làm việc",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Pandora",
+      "AppId": "PandoraMediaInc",
+      "Description": "Ứng dụng nghe nhạc trực tuyến Pandora",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phototastic Collage",
+      "AppId": "PhototasticCollage",
+      "Description": "Ứng dụng tạo ảnh ghép nghệ thuật",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "PicsArt",
+      "AppId": "PicsArt-PhotoStudio",
+      "Description": "Ứng dụng chỉnh sửa ảnh và thiết kế sáng tạo PicsArt",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Polarr Photo Editor",
+      "AppId": "PolarrPhotoEditorAcademicEdition",
+      "Description": "Ứng dụng chỉnh sửa ảnh Polarr (Phiên bản Academic)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Royal Revolt",
+      "AppId": "flaregamesGmbH.RoyalRevolt",
+      "Description": "Trò chơi chiến thuật thủ thành Royal Revolt",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Live Wallpaper",
+      "AppId": "Sidia.LiveWallpaper",
+      "Description": "Ứng dụng cài đặt hình nền động",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sling TV",
+      "AppId": "SlingTV",
+      "Description": "Ứng dụng truyền hình trực tuyến Sling TV",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Spotify",
+      "AppId": "SpotifyAB.SpotifyMusic",
+      "Description": "Ứng dụng nghe nhạc trực tuyến Spotify",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TikTok",
+      "AppId": "BytedancePte.Ltd.TikTok",
+      "Description": "Ứng dụng video ngắn TikTok",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TuneIn Radio",
+      "AppId": "TuneInRadio",
+      "Description": "Ứng dụng nghe radio trực tuyến toàn cầu",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "WinZip",
+      "AppId": "WinZipUniversal",
+      "Description": "Tiện ích nén và giải nén tệp (Phiên bản Universal Windows Platform)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Search",
+      "AppId": "Microsoft.BingSearch",
+      "Description": "Tìm kiếm web từ Microsoft Bing (Tích hợp trong Windows Search)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Edge",
+      "AppId": [
+        "Microsoft.Edge",
+        "XPFFTQ037JWMHS"
+      ],
+      "Description": "Trình duyệt mặc định của Windows. CẢNH BÁO: Gỡ bỏ ứng dụng này cũng sẽ xóa trình duyệt duy nhất khỏi Windows Sandbox và có thể ảnh hưởng đến các ứng dụng khác",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Xbox Gaming App",
+      "AppId": "Microsoft.GamingApp",
+      "Description": "Ứng dụng chơi game Xbox hiện đại, cần thiết để cài đặt một số game PC",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Get Help",
+      "AppId": "Microsoft.GetHelp",
+      "Description": "Cần thiết cho một số công cụ khắc phục sự cố (Troubleshooter) và tương tác hỗ trợ của Windows 11",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft 365 Companions",
+      "AppId": "Microsoft.M365Companions",
+      "Description": "Các tiện ích phụ Lịch, Tệp và Danh bạ của Microsoft 365 (Doanh nghiệp), có thể bị cài lại nếu quản trị viên Microsoft 365 bật",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint 3D",
+      "AppId": "Microsoft.MSPaint",
+      "Description": "Ứng dụng vẽ Paint 3D hiện đại hỗ trợ mô hình 3D",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneDrive",
+      "AppId": "Microsoft.OneDrive",
+      "Description": "Ứng dụng khách lưu trữ đám mây OneDrive cho người dùng cá nhân",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Outlook for Windows",
+      "AppId": "Microsoft.OutlookForWindows",
+      "Description": "Ứng dụng gửi nhận thư điện tử Outlook mới cho Windows",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint",
+      "AppId": "Microsoft.Paint",
+      "Description": "Ứng dụng vẽ Paint 2D cổ điển truyền thống",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "People",
+      "AppId": "Microsoft.People",
+      "Description": "Ứng dụng danh bạ đi kèm & cần thiết cho Mail & Calendar (Đã ngừng phát triển)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Remote Desktop",
+      "AppId": "Microsoft.RemoteDesktop",
+      "Description": "Ứng dụng khách kết nối máy tính từ xa (Remote Desktop)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Snipping Tool",
+      "AppId": "Microsoft.ScreenSketch",
+      "Description": "Công cụ chụp ảnh và quay video màn hình Snipping Tool",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Widgets Experience",
+      "AppId": "Microsoft.StartExperiencesApp",
+      "Description": "Ứng dụng vận hành nguồn cấp tin tức My Feed cho Windows Widgets",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Whiteboard",
+      "AppId": "Microsoft.Whiteboard",
+      "Description": "Ứng dụng bảng trắng kỹ thuật số cộng tác trực tuyến",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Photos",
+      "AppId": "Microsoft.Windows.Photos",
+      "Description": "Ứng dụng xem ảnh và chỉnh sửa ảnh cơ bản mặc định của Windows",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Calculator",
+      "AppId": "Microsoft.WindowsCalculator",
+      "Description": "Ứng dụng Máy tính (Calculator)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Camera",
+      "AppId": "Microsoft.WindowsCamera",
+      "Description": "Ứng dụng Máy ảnh (Camera) để chụp ảnh và quay video bằng webcam",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Mail & Calendar",
+      "AppId": "Microsoft.windowscommunicationsapps",
+      "Description": "Bộ ứng dụng Thư & Lịch (Đã ngừng phát triển)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Notepad",
+      "AppId": "Microsoft.WindowsNotepad",
+      "Description": "Trình soạn thảo văn bản ghi chú Notepad",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Store",
+      "AppId": "Microsoft.WindowsStore",
+      "Description": "Cửa hàng ứng dụng Microsoft Store. CẢNH BÁO: Rất khó cài đặt lại ứng dụng này nếu đã gỡ bỏ!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Terminal",
+      "AppId": "Microsoft.WindowsTerminal",
+      "Description": "Ứng dụng dòng lệnh mặc định trên Windows 11 (Command Prompt, PowerShell, WSL). CẢNH BÁO: Không được gỡ nếu bạn đang chạy Win11Debloat từ Windows Terminal.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox TCUI Framework",
+      "AppId": "Microsoft.Xbox.TCUI",
+      "Description": "Framework giao diện người dùng, cần thiết cho Microsoft Store, Photos và một số trò chơi",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Game Overlay",
+      "AppId": "Microsoft.XboxGameOverlay",
+      "Description": "Lớp phủ trong game, cần thiết/hữu ích cho một số trò chơi (Một phần của Xbox Game Bar)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Gaming Overlay",
+      "AppId": "Microsoft.XboxGamingOverlay",
+      "Description": "Lớp phủ khi chơi game, cần thiết/hữu ích cho một số trò chơi (Một phần của Xbox Game Bar)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Identity Provider",
+      "AppId": "Microsoft.XboxIdentityProvider",
+      "Description": "Khung xác thực đăng nhập tài khoản Xbox, cần thiết cho một số trò chơi và dịch vụ Xbox",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Speech To Text",
+      "AppId": "Microsoft.XboxSpeechToTextOverlay",
+      "Description": "Tính năng trợ năng chuyển giọng nói thành văn bản cho một số game. CẢNH BÁO: Rất khó cài đặt lại nếu đã gỡ bỏ!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phone Link",
+      "AppId": "Microsoft.YourPhone",
+      "Description": "Liên kết điện thoại Phone Link (Kết nối điện thoại Android/iOS với máy tính)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Media Player",
+      "AppId": "Microsoft.ZuneMusic",
+      "Description": "Trình phát đa phương tiện hiện đại (Thay thế Groove Music, phát âm thanh/video cục bộ)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cross Device Experience",
+      "AppId": "MicrosoftWindows.CrossDevice",
+      "Description": "Tích hợp điện thoại trong File Explorer, Camera và nhiều nơi khác (Tính năng mở rộng của Phone Link)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Web Experience Pack",
+      "AppId": "MicrosoftWindows.Client.WebExperience",
+      "Description": "Hỗ trợ cung cấp và cập nhật các tính năng nền web như Widgets thông qua Microsoft Store",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Widgets Platform Runtime",
+      "AppId": "Microsoft.WidgetsPlatformRuntime",
+      "Description": "Môi trường thực thi (Runtime) cần thiết để các tiện ích Windows Widgets hoạt động",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LG Monitor App",
+      "AppId": "LGElectronics.LGMonitorApp",
+      "Description": "Phần mềm OEM điều khiển màn hình LG. Windows Update có thể tự động cài lại nếu bạn đang kết nối màn hình LG",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP AI Experience Center",
+      "AppId": "AD2F1837.HPAIExperienceCenter",
+      "Description": "Phần mềm HP OEM cung cấp các tính năng AI và hỗ trợ nâng cao",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Music",
+      "AppId": "AD2F1837.HPConnectedMusic",
+      "Description": "Phần mềm nghe nhạc của HP OEM (Có thể đã ngừng phát triển)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Photo",
+      "AppId": "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+      "Description": "Phần mềm quản lý ảnh của HP OEM, tích hợp Snapfish (Có thể đã ngừng phát triển)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Desktop Support Utilities",
+      "AppId": "AD2F1837.HPDesktopSupportUtilities",
+      "Description": "Phần mềm HP OEM cung cấp các công cụ hỗ trợ máy tính",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Easy Clean",
+      "AppId": "AD2F1837.HPEasyClean",
+      "Description": "Phần mềm HP OEM dọn dẹp và tối ưu hóa hệ thống",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP File Viewer",
+      "AppId": "AD2F1837.HPFileViewer",
+      "Description": "Phần mềm HP OEM để xem các định dạng tệp chuyên biệt",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP JumpStarts",
+      "AppId": "AD2F1837.HPJumpStarts",
+      "Description": "Phần mềm HP OEM hướng dẫn, khám phá ứng dụng và phím tắt của HP",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP PC Hardware Diagnostics",
+      "AppId": "AD2F1837.HPPCHardwareDiagnosticsWindows",
+      "Description": "Phần mềm HP OEM chẩn đoán và kiểm tra phần cứng máy tính",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Power Manager",
+      "AppId": "AD2F1837.HPPowerManager",
+      "Description": "Phần mềm HP OEM quản lý nguồn điện, pin và sạc",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Printer Control",
+      "AppId": "AD2F1837.HPPrinterControl",
+      "Description": "Phần mềm HP OEM quản lý và điều khiển máy in HP",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Privacy Settings",
+      "AppId": "AD2F1837.HPPrivacySettings",
+      "Description": "Phần mềm HP OEM quản lý quyền riêng tư",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickDrop",
+      "AppId": "AD2F1837.HPQuickDrop",
+      "Description": "Phần mềm HP OEM truyền tệp nhanh không dây giữa các thiết bị",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickTouch",
+      "AppId": "AD2F1837.HPQuickTouch",
+      "Description": "Phần mềm HP OEM hỗ trợ phím tắt và điều khiển cảm ứng",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Registration",
+      "AppId": "AD2F1837.HPRegistration",
+      "Description": "Phần mềm HP OEM đăng ký bảo hành sản phẩm",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Support Assistant",
+      "AppId": "AD2F1837.HPSupportAssistant",
+      "Description": "Phần mềm HP OEM hỗ trợ kỹ thuật, cập nhật driver và khắc phục sự cố",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Sure Shield AI",
+      "AppId": "AD2F1837.HPSureShieldAI",
+      "Description": "Phần mềm bảo mật HP OEM bảo vệ máy tính bằng AI",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP System Information",
+      "AppId": "AD2F1837.HPSystemInformation",
+      "Description": "Phần mềm HP OEM hiển thị thông tin cấu hình hệ thống",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Welcome",
+      "AppId": "AD2F1837.HPWelcome",
+      "Description": "Phần mềm HP OEM chào mừng và hướng dẫn thiết lập máy ban đầu",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP WorkWell",
+      "AppId": "AD2F1837.HPWorkWell",
+      "Description": "Phần mềm HP OEM nhắc nhở nghỉ ngơi và hướng dẫn tư thế làm việc công thái học",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "myHP",
+      "AppId": "AD2F1837.myHP",
+      "Description": "Ứng dụng trung tâm của HP OEM quản lý thông tin thiết bị, hỗ trợ và dịch vụ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage",
+      "AppId": "E046963F.LenovoCompanion",
+      "Description": "Ứng dụng trung tâm Lenovo Vantage quản lý cài đặt phần cứng, cập nhật và hỗ trợ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage Service",
+      "AppId": "LenovoCompanyLimited.LenovoVantageService",
+      "Description": "Thành phần dịch vụ chạy nền cho Lenovo Vantage",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell SupportAssist",
+      "AppId": "DellInc.DellSupportAssistforPCs",
+      "Description": "Công cụ hỗ trợ, chẩn đoán lỗi phần cứng và cập nhật driver của Dell OEM",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Digital Delivery Services",
+      "AppId": "DellInc.DellDigitalDelivery",
+      "Description": "Phần mềm Dell OEM tự động tải các phần mềm được mua kèm máy",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Mobile Connect",
+      "AppId": "DellInc.DellMobileConnect",
+      "Description": "Ứng dụng Dell OEM kết nối điện thoại Android/iOS với máy tính (Đã thay thế bởi Phone Link)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    }
+  ],
+  "Presets": [
+    {
+      "Name": "Xbox gaming apps",
+      "AppIds": [
+        "Microsoft.GamingApp",
+        "Microsoft.XboxGameOverlay",
+        "Microsoft.XboxGamingOverlay"
+      ]
+    },
+    {
+      "Name": "OEM software (Dell, HP, Lenovo, LG)",
+      "AppIds": [
+        "AD2F1837.HPAIExperienceCenter",
+        "AD2F1837.HPConnectedMusic",
+        "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+        "AD2F1837.HPDesktopSupportUtilities",
+        "AD2F1837.HPEasyClean",
+        "AD2F1837.HPFileViewer",
+        "AD2F1837.HPJumpStarts",
+        "AD2F1837.HPPCHardwareDiagnosticsWindows",
+        "AD2F1837.HPPowerManager",
+        "AD2F1837.HPPrinterControl",
+        "AD2F1837.HPPrivacySettings",
+        "AD2F1837.HPQuickDrop",
+        "AD2F1837.HPQuickTouch",
+        "AD2F1837.HPRegistration",
+        "AD2F1837.HPSupportAssistant",
+        "AD2F1837.HPSureShieldAI",
+        "AD2F1837.HPSystemInformation",
+        "AD2F1837.HPWelcome",
+        "AD2F1837.HPWorkWell",
+        "AD2F1837.myHP",
+        "E046963F.LenovoCompanion",
+        "LenovoCompanyLimited.LenovoVantageService",
+        "LGElectronics.LGMonitorApp",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellMobileConnect"
+      ]
+    }
+  ]
+}
