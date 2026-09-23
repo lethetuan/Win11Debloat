@@ -21,7 +21,7 @@ Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên h�
 
 ### Phương pháp tải ứng dụng truyền thống trên Github
 
-<details>
+
   <summary>Tải xuống và chạy tập lệnh theo cách thủ công.</summary><br/>
 
   1. [Tải xuống phiên bản mới nhất ] và giải nén tệp .ZIP ra.
@@ -29,9 +29,9 @@ Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên h�
   4. Nhấp đúp chuột vào tệp tin `Run.bat` để chạy tập lệnh. LƯU Ý: Nếu cửa sổ console đóng ngay lập tức và không có gì xảy ra, hãy thử phương pháp nâng cao bên dưới.
   5. Chấp nhận lời nhắc UAC của Windows để chạy tập lệnh dưới quyền quản trị viên, điều này là bắt buộc để tập lệnh hoạt động.
   6. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
-<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/d429357a-c3cf-4649-8dc6-53b9d0d8137e" />
+[<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/d429357a-c3cf-4649-8dc6-53b9d0d8137e" />](https://www.facebook.com/lethetuan.com.vn/)
 
-</details>
+
 
 ## Tính năng
 
