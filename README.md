@@ -29,9 +29,8 @@ Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên h�
   4. Nhấp đúp chuột vào tệp tin `Run.bat` để chạy tập lệnh. LƯU Ý: Nếu cửa sổ console đóng ngay lập tức và không có gì xảy ra, hãy thử phương pháp nâng cao bên dưới.
   5. Chấp nhận lời nhắc UAC của Windows để chạy tập lệnh dưới quyền quản trị viên, điều này là bắt buộc để tập lệnh hoạt động.
   6. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
-[<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/d429357a-c3cf-4649-8dc6-53b9d0d8137e" />](https://www.facebook.com/lethetuan.com.vn/)
 
-
+<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/b811abb2-3d9c-4f3e-8aee-4245e22506e2" />
 
 ## Tính năng
 
