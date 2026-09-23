@@ -1,9 +1,5 @@
 # Win11Debloat
 
-[![GitHub Release](https://img.shields.io/github/v/release/Raphire/Win11Debloat?style=for-the-badge&label=Latest%20release)](https://github.com/Raphire/Win11Debloat/releases/latest)
-[![Join the Discussion](https://img.shields.io/badge/Join-the%20Discussion-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphire/Win11Debloat/discussions)
-[![Static Badge](https://img.shields.io/badge/Documentation-_?style=for-the-badge&logo=bookstack&color=grey)](https://github.com/Raphire/Win11Debloat/wiki/)
-
 Win11Debloat là một tập lệnh PowerShell nhẹ và dễ sử dụng, cho phép bạn nhanh chóng dọn dẹp và tùy chỉnh trải nghiệm Windows của mình mà không cần cài đặt! Bạn có thể sử dụng nó để xóa các ứng dụng được cài đặt sẵn, tắt tính năng thu thập dữ liệu (telemetry), loại bỏ các thành phần giao diện gây phiền nhiễu và nhiều hơn thế nữa. Không cần phải vất vả duyệt qua tất cả các cài đặt hoặc gỡ cài đặt từng ứng dụng một. Win11Debloat giúp quá trình này trở nên nhanh chóng và dễ dàng!
 
 Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên hệ thống và người dùng có kinh nghiệm sẽ thích. Chẳng hạn như giao diện dòng lệnh mạnh mẽ, hỗ trợ chế độ Windows Audit và khả năng áp dụng các thay đổi cho những người dùng Windows khác. Bạn cũng có thể dễ dàng xuất và nhập các cài đặt ưa thích của mình, cho phép nhanh chóng áp dụng cùng một cấu hình trên tất cả các hệ thống. Vui lòng tham khảo [wiki](https://github.com/Raphire/Win11Debloat/wiki) của chúng tôi để biết thêm chi tiết.
