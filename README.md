@@ -4,172 +4,172 @@
 [![Join the Discussion](https://img.shields.io/badge/Join-the%20Discussion-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphire/Win11Debloat/discussions)
 [![Static Badge](https://img.shields.io/badge/Documentation-_?style=for-the-badge&logo=bookstack&color=grey)](https://github.com/Raphire/Win11Debloat/wiki/)
 
- Win11Debloat is a lightweight, easy to use PowerShell script that allows you to quickly declutter and customize your Windows experience, no installation required! You can use it to remove pre-installed apps, disable telemetry, remove intrusive interface elements and much more. No need to painstakingly go through all the settings yourself or remove apps one by one. Win11Debloat makes the process quick and easy!
+Win11Debloat là một tập lệnh PowerShell nhẹ và dễ sử dụng, cho phép bạn nhanh chóng dọn dẹp và tùy chỉnh trải nghiệm Windows của mình mà không cần cài đặt! Bạn có thể sử dụng nó để xóa các ứng dụng được cài đặt sẵn, tắt tính năng thu thập dữ liệu (telemetry), loại bỏ các thành phần giao diện gây phiền nhiễu và nhiều hơn thế nữa. Không cần phải vất vả duyệt qua tất cả các cài đặt hoặc gỡ cài đặt từng ứng dụng một. Win11Debloat giúp quá trình này trở nên nhanh chóng và dễ dàng!
 
-The script also includes many features that system administrators and power users will enjoy. Such as a powerful command-line interface, support for Windows Audit mode and the ability to make changes to other Windows users. You can also easily export & import your preferred settings, allowing you to quickly apply the same settings on all your systems. Please refer to our [wiki](https://github.com/Raphire/Win11Debloat/wiki) for more details.
+Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên hệ thống và người dùng có kinh nghiệm sẽ thích. Chẳng hạn như giao diện dòng lệnh mạnh mẽ, hỗ trợ chế độ Windows Audit và khả năng áp dụng các thay đổi cho những người dùng Windows khác. Bạn cũng có thể dễ dàng xuất và nhập các cài đặt ưa thích của mình, cho phép nhanh chóng áp dụng cùng một cấu hình trên tất cả các hệ thống. Vui lòng tham khảo [wiki](https://github.com/Raphire/Win11Debloat/wiki) của chúng tôi để biết thêm chi tiết.
 
 ![Win11Debloat Menu](/Assets/Images/menu.png)
 
-#### Did this script help you? Please consider buying me a cup of coffee to support my work
+#### Tập lệnh này có giúp ích cho bạn không? Hãy cân nhắc mời tôi một tách cà phê để ủng hộ công việc của tôi nhé
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M5C6UPC)
 
-## Usage
+## Hướng dẫn sử dụng
 
 > [!Warning]
-> Great care went into making sure this script does not unintentionally break any OS functionality, but use at your own risk! If you run into any issues, please report them [here](https://github.com/Raphire/Win11Debloat/issues).
+> Rất nhiều tâm huyết đã được đổ vào để đảm bảo tập lệnh này không vô tình làm hỏng bất kỳ chức năng nào của hệ điều hành, nhưng bạn phải tự chịu rủi ro khi sử dụng! Nếu bạn gặp bất kỳ sự cố nào, vui lòng báo cáo chúng [tại đây](https://github.com/Raphire/Win11Debloat/issues).
 
-### Quick method
+### Phương pháp nhanh
 
-Download & run the script automatically via PowerShell.
+Tải xuống và chạy tập lệnh tự động thông qua PowerShell.
 
-1. Open PowerShell or Terminal.
-2. Copy and paste the command below into PowerShell:
+1. Mở PowerShell hoặc Terminal.
+2. Sao chép và dán lệnh dưới đây vào PowerShell:
 
 ```PowerShell
 & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
 ```
 
-3. Wait for the script to automatically download and launch Win11Debloat.
-4. Carefully read through and follow the on-screen instructions.
+3. Đợi tập lệnh tự động tải xuống và khởi chạy Win11Debloat.
+4. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
 
-This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) for more information.
+Phương pháp này hỗ trợ các tham số dòng lệnh để tùy chỉnh hành vi của tập lệnh. Vui lòng nhấp vào [đây](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) để biết thêm thông tin.
 
-### Traditional method
+### Phương pháp truyền thống
 
 <details>
-  <summary>Manually download & run the script.</summary><br/>
+  <summary>Tải xuống và chạy tập lệnh theo cách thủ công.</summary><br/>
 
-  1. [Download the latest version of the script](https://github.com/Raphire/Win11Debloat/releases/latest), and extract the .ZIP file to your desired location.
-  2. Navigate to the Win11Debloat folder
-  3. Double click the `Run.bat` file to start the script. NOTE: If the console window immediately closes and nothing happens, try the advanced method below.
-  4. Accept the Windows UAC prompt to run the script as administrator, this is required for the script to function.
-  5. Carefully read through and follow the on-screen instructions.
+  1. [Tải xuống phiên bản mới nhất của tập lệnh](https://github.com/Raphire/Win11Debloat/releases/latest) và giải nén tệp .ZIP vào vị trí mong muốn của bạn.
+  2. Điều hướng đến thư mục Win11Debloat.
+  3. Nhấp đúp vào tệp `Run.bat` để chạy tập lệnh. LƯU Ý: Nếu cửa sổ console đóng ngay lập tức và không có gì xảy ra, hãy thử phương pháp nâng cao bên dưới.
+  4. Chấp nhận lời nhắc UAC của Windows để chạy tập lệnh dưới quyền quản trị viên, điều này là bắt buộc để tập lệnh hoạt động.
+  5. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
 </details>
 
-### Advanced method
+### Phương pháp nâng cao
 
 <details>
-  <summary>Manually download the script & run the script via PowerShell. Recommended for advanced users.</summary><br/>
+  <summary>Tải xuống thủ công và chạy tập lệnh qua PowerShell. Dành cho người dùng có kinh nghiệm.</summary><br/>
 
-  1. [Download the latest version of the script](https://github.com/Raphire/Win11Debloat/releases/latest), and extract the .ZIP file to your desired location.
-  2. Open PowerShell or Terminal as an administrator.
-  3. Temporarily enable PowerShell execution by entering the following command:
+  1. [Tải xuống phiên bản mới nhất của tập lệnh](https://github.com/Raphire/Win11Debloat/releases/latest) và giải nén tệp .ZIP vào vị trí mong muốn của bạn.
+  2. Mở PowerShell hoặc Terminal dưới quyền quản trị viên.
+  3. Tạm thời bật quyền thực thi PowerShell bằng cách nhập lệnh sau:
 
   ```PowerShell
   Set-ExecutionPolicy Bypass -Scope Process -Force
   ```
 
-  4. In PowerShell, navigate to the directory where the files were extracted. Example: `cd c:\Win11Debloat`
-  5. Now run the script by entering the following command:
+  4. Trong PowerShell, điều hướng đến thư mục đã giải nén tệp. Ví dụ: `cd c:\Win11Debloat`
+  5. Bây giờ, chạy tập lệnh bằng cách nhập lệnh sau:
 
   ```PowerShell
   .\Win11Debloat.ps1
   ```
 
-  6. Carefully read through and follow the on-screen instructions.
+  6. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
 
-  This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) for more information.
+  Phương pháp này hỗ trợ các tham số dòng lệnh để tùy chỉnh hành vi của tập lệnh. Vui lòng nhấp vào [đây](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) để biết thêm thông tin.
 </details>
 
-## Features
+## Tính năng
 
-Below is an overview of the key features and functionality offered by Win11Debloat. You can visit the [the wiki](https://github.com/Raphire/Win11Debloat/wiki) for more details.
+Dưới đây là tổng quan về các tính năng và chức năng chính mà Win11Debloat cung cấp. Bạn có thể truy cập [wiki](https://github.com/Raphire/Win11Debloat/wiki) để biết thêm chi tiết.
 
 > [!Tip]
-> All of the changes made by Win11Debloat can easily be reverted and almost all of the apps can be reinstalled through the Microsoft Store. You can visit [the wiki](https://github.com/Raphire/Win11Debloat/wiki/Reverting-Changes) for more information on reverting changes.
+> Tất cả các thay đổi do Win11Debloat thực hiện có thể dễ dàng hoàn tác và hầu hết tất cả các ứng dụng có thể được cài đặt lại thông qua Microsoft Store. Bạn có thể truy cập [wiki](https://github.com/Raphire/Win11Debloat/wiki/Reverting-Changes) để biết thêm thông tin về cách hoàn tác các thay đổi.
 
-#### App Removal
+#### Xóa Ứng dụng (App Removal)
 
-- Remove a wide variety of preinstalled apps. Click [here](https://github.com/Raphire/Win11Debloat/wiki/App-Removal) for more info.
+- Xóa nhiều loại ứng dụng được cài đặt sẵn. Nhấp vào [đây](https://github.com/Raphire/Win11Debloat/wiki/App-Removal) để biết thêm thông tin.
 
-#### Privacy & Suggested Content
+#### Quyền riêng tư & Nội dung được đề xuất
 
-- Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable tips, tricks, suggestions & ads across Windows, the lock screen and Microsoft Edge.
-- Disable Windows location services, app location access and Find My Device location tracking.
-- Hide Microsoft 365 ads on the Settings 'Home' page, or hide the 'Home' page entirely.
+- Tắt tính năng thu thập dữ liệu (telemetry), dữ liệu chẩn đoán, lịch sử hoạt động, theo dõi khởi chạy ứng dụng & quảng cáo nhắm mục tiêu.
+- Tắt các mẹo, thủ thuật, đề xuất & quảng cáo trên Windows, màn hình khóa và Microsoft Edge.
+- Tắt dịch vụ vị trí của Windows, quyền truy cập vị trí của ứng dụng và theo dõi vị trí Find My Device.
+- Ẩn quảng cáo Microsoft 365 trên trang 'Home' của Cài đặt, hoặc ẩn hoàn toàn trang 'Home'.
 
-#### AI Features
+#### Các tính năng AI
 
-- Disable & remove Microsoft Copilot, Windows Recall and Click to Do.
-- Prevent AI service (WSAIFabricSvc) from starting automatically.
-- Disable AI Features in Edge, Paint and Notepad.
+- Tắt & xóa Microsoft Copilot, Windows Recall và Click to Do.
+- Ngăn dịch vụ AI (WSAIFabricSvc) tự động khởi chạy.
+- Tắt các tính năng AI trong Edge, Paint và Notepad.
 
-#### System
+#### Hệ thống (System)
 
-- Disable the Drag Tray for sharing & moving files.
-- Restore the old Windows 10 style context menu.
-- Turn off Enhance Pointer Precision (mouse acceleration).
-- Disable the Sticky Keys keyboard shortcut.
-- Disable Storage Sense automatic disk cleanup.
-- Disable fast start-up to ensure a full shutdown.
-- Disable BitLocker automatic device encryption.
-- Disable network connectivity during Modern Standby to reduce battery drain.
+- Tắt Drag Tray (Khay kéo) để chia sẻ & di chuyển tệp.
+- Khôi phục menu ngữ cảnh chuột phải kiểu cũ của Windows 10.
+- Tắt Enhance Pointer Precision (gia tốc chuột).
+- Tắt phím tắt Sticky Keys.
+- Tắt tính năng dọn dẹp ổ đĩa tự động Storage Sense.
+- Tắt khởi động nhanh (fast start-up) để đảm bảo máy tính tắt hoàn toàn.
+- Tắt tính năng mã hóa thiết bị tự động BitLocker.
+- Tắt kết nối mạng trong chế độ Modern Standby để giảm hao pin.
 
-#### Windows Update
+#### Cập nhật Windows (Windows Update)
 
-- Prevent Windows from getting updates as soon as they're available.
-- Prevent automatic restarts after updates while signed in.
-- Disable sharing of downloaded updates with other PCs, also known as Delivery Optimization.
-- Prevent Windows from auto-installing device companion apps, like LG Monitor App, Alienware Command Center and more.
+- Ngăn Windows nhận các bản cập nhật ngay khi chúng có sẵn.
+- Ngăn tự động khởi động lại sau khi cập nhật trong khi đang đăng nhập.
+- Tắt tính năng chia sẻ các bản cập nhật đã tải xuống với các PC khác (Delivery Optimization).
+- Ngăn Windows tự động cài đặt các ứng dụng đồng hành của thiết bị, như LG Monitor App, Alienware Command Center và nhiều ứng dụng khác.
 
-#### Appearance
+#### Giao diện (Appearance)
 
-- Enable dark mode for system and apps.
-- Disable transparency, animations and visual effects.
-- Hide the 'Learn about this picture' shortcut for desktop spotlight, or disable the Windows spotlight background option entirely.
+- Bật chế độ tối (dark mode) cho hệ thống và ứng dụng.
+- Tắt độ trong suốt, hình động và hiệu ứng hình ảnh.
+- Ẩn phím tắt 'Learn about this picture' cho màn hình nền spotlight, hoặc tắt hoàn toàn tùy chọn hình nền Windows spotlight.
 
-#### Start Menu & Search
+#### Start Menu & Tìm kiếm
 
-- Customize the start menu by removing pinned apps, hiding recommendations, and customizing the 'All Apps' section.
-- Disable the Phone Link mobile devices integration in the start menu.
-- Disable Bing web search & Copilot integration and Microsoft Store app suggestions in Windows search.
+- Tùy chỉnh Start menu bằng cách xóa các ứng dụng đã ghim, ẩn các đề xuất và tùy chỉnh phần 'All Apps' (Tất cả ứng dụng).
+- Tắt tích hợp thiết bị di động Phone Link trong Start menu.
+- Tắt tìm kiếm web Bing, tích hợp Copilot và các đề xuất ứng dụng Microsoft Store trong tìm kiếm của Windows.
 
-#### Taskbar
+#### Thanh tác vụ (Taskbar)
 
-- Change taskbar alignment.
-- Customize or hide taskbar buttons like the search bar, taskview and more.
-- Disable widgets on the taskbar & lock screen.
-- Enable the 'End Task' option in the taskbar right click menu to quickly force-close apps.
-- Enable the 'Last Active Click' behavior in the taskbar app area. This allows you to repeatedly click on an application's icon in the taskbar to switch focus between the open windows of that application.
-- Customize how app buttons are shown on the taskbar.
+- Thay đổi căn chỉnh thanh taskbar.
+- Tùy chỉnh hoặc ẩn các nút trên thanh taskbar như thanh tìm kiếm, taskview và nhiều nút khác.
+- Tắt widgets trên thanh taskbar & màn hình khóa.
+- Bật tùy chọn 'End Task' (Kết thúc tác vụ) trong menu chuột phải trên thanh taskbar để nhanh chóng buộc đóng ứng dụng.
+- Bật thao tác 'Last Active Click' trong khu vực ứng dụng trên thanh taskbar. Điều này cho phép bạn nhấp liên tục vào biểu tượng của một ứng dụng trên thanh taskbar để chuyển đổi tiêu điểm giữa các cửa sổ đang mở của ứng dụng đó.
+- Tùy chỉnh cách các nút ứng dụng hiển thị trên thanh taskbar.
 
 #### File Explorer
 
-- Change the default location that File Explorer opens to.
-- Show file extensions for known file types.
-- Show hidden files, folders and drives.
-- Hide the Home, Gallery or OneDrive section from the File Explorer navigation pane.
-- Hide duplicate removable drive entries from the File Explorer navigation pane, so only the entry under 'This PC' remains.
-- Add all common folders (Desktop, Downloads, etc.) back to 'This PC' in File Explorer.
-- Change drive letter position or visibility in File Explorer.
+- Thay đổi vị trí mặc định khi File Explorer mở lên.
+- Hiển thị phần đuôi mở rộng cho các loại tệp đã biết.
+- Hiển thị các tệp, thư mục và ổ đĩa bị ẩn.
+- Ẩn phần Home, Gallery hoặc OneDrive khỏi ngăn điều hướng của File Explorer.
+- Ẩn các mục ổ đĩa rời bị trùng lặp khỏi ngăn điều hướng của File Explorer, để chỉ giữ lại mục nằm trong 'This PC'.
+- Thêm tất cả các thư mục phổ biến (Desktop, Downloads, v.v.) trở lại 'This PC' trong File Explorer.
+- Thay đổi vị trí hoặc khả năng hiển thị ký tự ổ đĩa trong File Explorer.
 
-#### Multi-tasking
+#### Đa nhiệm (Multi-tasking)
 
-- Disable window snapping.
-- Disable Snap Assist and Snap Layout suggestions when dragging or snapping windows.
-- Change whether tabs are shown when snapping windows or pressing Alt+Tab.
+- Tắt tính năng snapping cửa sổ (tự động gắn cửa sổ).
+- Tắt các đề xuất Snap Assist và Snap Layout khi kéo hoặc chia cửa sổ.
+- Thay đổi xem các tab có được hiển thị khi chia cửa sổ hoặc nhấn Alt+Tab hay không.
 
-#### Optional Windows Features
+#### Các tính năng tùy chọn của Windows
 
-- Enable Windows Sandbox, a lightweight desktop environment for safely running applications in isolation.
-- Enable Windows Subsystem for Linux which allows you to run a Linux environment directly on Windows.
+- Bật Windows Sandbox, một môi trường máy tính để bàn nhẹ để chạy các ứng dụng một cách an toàn trong môi trường cách ly.
+- Bật Windows Subsystem for Linux (WSL) cho phép bạn chạy môi trường Linux trực tiếp trên Windows.
 
-#### Other
+#### Khác
 
-- Disable Xbox Game Bar integration & game/screen recording. This also disables `ms-gamingoverlay`/`ms-gamebar` popups if you uninstall the Xbox Game Bar.
-- Disable bloat in Brave browser (AI, Crypto, News, etc.)
+- Tắt tích hợp Xbox Game Bar & quay phim màn hình/trò chơi. Điều này cũng vô hiệu hóa các cửa sổ bật lên `ms-gamingoverlay`/`ms-gamebar` nếu bạn gỡ cài đặt Xbox Game Bar.
+- Tắt các tính năng rác trong trình duyệt Brave (AI, Crypto, Tin tức, v.v.)
 
-#### Advanced Features
+#### Các tính năng nâng cao
 
-- Ability to [apply changes to a different user](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#running-as-another-user), instead of the currently logged in user.
-- [Sysprep mode](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#sysprep-mode) to apply changes to the Windows Default user profile. Which ensures, all new users will have the changes automatically applied to them.
+- Khả năng [áp dụng các thay đổi cho một người dùng khác](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#running-as-another-user), thay vì người dùng hiện đang đăng nhập.
+- [Chế độ Sysprep](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#sysprep-mode) để áp dụng các thay đổi cho hồ sơ người dùng Mặc định của Windows. Điều này đảm bảo tất cả người dùng mới sẽ tự động được áp dụng các thay đổi.
 
-## Contributing
+## Đóng góp
 
-We welcome contributions of all kinds! Please see our [Contributing Guidelines](https://github.com/Raphire/Win11Debloat/blob/master/.github/CONTRIBUTING.md) for detailed instructions on how to get started and best practices for contributing.
+Chúng tôi hoan nghênh mọi đóng góp! Vui lòng xem [Hướng dẫn đóng góp](https://github.com/Raphire/Win11Debloat/blob/master/.github/CONTRIBUTING.md) của chúng tôi để biết các hướng dẫn chi tiết về cách bắt đầu và các phương pháp hay nhất để đóng góp.
 
-## License
+## Giấy phép
 
-Win11Debloat is licensed under the MIT license. See the LICENSE file for more information.
+Win11Debloat được cấp phép theo giấy phép MIT. Xem tệp LICENSE để biết thêm thông tin.
