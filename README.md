@@ -12,64 +12,25 @@ Tập lệnh cũng bao gồm nhiều tính năng mà các quản trị viên h�
 
 #### Tập lệnh này có giúp ích cho bạn không? Hãy cân nhắc mời tôi một tách cà phê để ủng hộ công việc của tôi nhé
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M5C6UPC)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://www.facebook.com/lethetuan.com.vn/)
 
 ## Hướng dẫn sử dụng
 
 > [!Warning]
-> Rất nhiều tâm huyết đã được đổ vào để đảm bảo tập lệnh này không vô tình làm hỏng bất kỳ chức năng nào của hệ điều hành, nhưng bạn phải tự chịu rủi ro khi sử dụng! Nếu bạn gặp bất kỳ sự cố nào, vui lòng báo cáo chúng [tại đây](https://github.com/Raphire/Win11Debloat/issues).
+> Rất nhiều tâm huyết đã được đổ vào để đảm bảo tập lệnh này không vô tình làm hỏng bất kỳ chức năng nào của hệ điều hành, nhưng bạn phải tự chịu rủi ro khi sử dụng!
 
-### Phương pháp nhanh
-
-Tải xuống và chạy tập lệnh tự động thông qua PowerShell.
-
-1. Mở PowerShell hoặc Terminal.
-2. Sao chép và dán lệnh dưới đây vào PowerShell:
-
-```PowerShell
-& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
-```
-
-3. Đợi tập lệnh tự động tải xuống và khởi chạy Win11Debloat.
-4. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
-
-Phương pháp này hỗ trợ các tham số dòng lệnh để tùy chỉnh hành vi của tập lệnh. Vui lòng nhấp vào [đây](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) để biết thêm thông tin.
-
-### Phương pháp truyền thống
+### Phương pháp tải ứng dụng truyền thống trên Github
 
 <details>
   <summary>Tải xuống và chạy tập lệnh theo cách thủ công.</summary><br/>
 
-  1. [Tải xuống phiên bản mới nhất của tập lệnh](https://github.com/Raphire/Win11Debloat/releases/latest) và giải nén tệp .ZIP vào vị trí mong muốn của bạn.
-  2. Điều hướng đến thư mục Win11Debloat.
-  3. Nhấp đúp vào tệp `Run.bat` để chạy tập lệnh. LƯU Ý: Nếu cửa sổ console đóng ngay lập tức và không có gì xảy ra, hãy thử phương pháp nâng cao bên dưới.
-  4. Chấp nhận lời nhắc UAC của Windows để chạy tập lệnh dưới quyền quản trị viên, điều này là bắt buộc để tập lệnh hoạt động.
-  5. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
-</details>
-
-### Phương pháp nâng cao
-
-<details>
-  <summary>Tải xuống thủ công và chạy tập lệnh qua PowerShell. Dành cho người dùng có kinh nghiệm.</summary><br/>
-
-  1. [Tải xuống phiên bản mới nhất của tập lệnh](https://github.com/Raphire/Win11Debloat/releases/latest) và giải nén tệp .ZIP vào vị trí mong muốn của bạn.
-  2. Mở PowerShell hoặc Terminal dưới quyền quản trị viên.
-  3. Tạm thời bật quyền thực thi PowerShell bằng cách nhập lệnh sau:
-
-  ```PowerShell
-  Set-ExecutionPolicy Bypass -Scope Process -Force
-  ```
-
-  4. Trong PowerShell, điều hướng đến thư mục đã giải nén tệp. Ví dụ: `cd c:\Win11Debloat`
-  5. Bây giờ, chạy tập lệnh bằng cách nhập lệnh sau:
-
-  ```PowerShell
-  .\Win11Debloat.ps1
-  ```
-
+  1. [Tải xuống phiên bản mới nhất ] và giải nén tệp .ZIP ra.
+  3. Mở thư mục Win11Debloat.
+  4. Nhấp đúp chuột vào tệp tin `Run.bat` để chạy tập lệnh. LƯU Ý: Nếu cửa sổ console đóng ngay lập tức và không có gì xảy ra, hãy thử phương pháp nâng cao bên dưới.
+  5. Chấp nhận lời nhắc UAC của Windows để chạy tập lệnh dưới quyền quản trị viên, điều này là bắt buộc để tập lệnh hoạt động.
   6. Đọc kỹ và làm theo các hướng dẫn trên màn hình.
+<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/d429357a-c3cf-4649-8dc6-53b9d0d8137e" />
 
-  Phương pháp này hỗ trợ các tham số dòng lệnh để tùy chỉnh hành vi của tập lệnh. Vui lòng nhấp vào [đây](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) để biết thêm thông tin.
 </details>
 
 ## Tính năng
@@ -166,9 +127,6 @@ Dưới đây là tổng quan về các tính năng và chức năng chính mà 
 - Khả năng [áp dụng các thay đổi cho một người dùng khác](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#running-as-another-user), thay vì người dùng hiện đang đăng nhập.
 - [Chế độ Sysprep](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#sysprep-mode) để áp dụng các thay đổi cho hồ sơ người dùng Mặc định của Windows. Điều này đảm bảo tất cả người dùng mới sẽ tự động được áp dụng các thay đổi.
 
-## Đóng góp
-
-Chúng tôi hoan nghênh mọi đóng góp! Vui lòng xem [Hướng dẫn đóng góp](https://github.com/Raphire/Win11Debloat/blob/master/.github/CONTRIBUTING.md) của chúng tôi để biết các hướng dẫn chi tiết về cách bắt đầu và các phương pháp hay nhất để đóng góp.
 
 ## Giấy phép
 
